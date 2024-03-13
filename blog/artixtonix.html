@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I think NixOS is looking really promising" />
+  <meta name="dcterms.date" content="2022-06-01" />
+  <title>I Might Be Leaving Artix Soon</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">I Might Be Leaving Artix Soon</h1>
+<p class="author"><em>I think NixOS is looking really promising</em></p>
+<p class="date">06/01/2022</p>
+</header>
+<p>Ever since I first found out what a package manager does, I always thought that it would be cool if I could create my own package manager that worked simply from install scripts. When I used Ubuntu and all of the other normal "beginner" distros with their snaps and flatpaks and appimages and whatnot, I always thought that a generic shell script could easily do all of the stuff that these package managers were doing, and more. When I made the real switch to Artix, I found out about the AUR, and I must say that I was impressed. Not only was I impressed, I didn’t really understand what it was doing. After a while, I realized that PKGBUILDs were just shell scripts that were interpreted with makepkg, and that’s really cool! If you know anything about me, you know that I love shell scripts for everything. Heck, I’m using the blogging script I mentioned a couple posts ago to type this out! Anyways, I ended up watching a tutorial on how to make a PKGBUILD and I made a script for <a href="https://github.com/swindlesmccoop/spdl">spdl</a>, the StepMania Pack Downloader. And so that was that for a while. But in the back of my mind (as well as through many posts on 4chan), I kept reminding myself about NixOS. I have a good (online) friend who told me about Nix a while ago and how it has the most packages out of any package repo, and I laughed at him, telling him that the AUR was all that I needed. However, unlike the AUR, all of the packages on NixOS are official. And how do you install them? Not grab a binary release from some central server, no. You see, Nix itself is a language, and you create almost a .nix program that holds the instructions for building the package. So in a sense, it’s like a PKGBUILD, but it’s the only way to install packages. And there aren’t a million repositories out there for all of the Nix packages, there’s one: a GitHub repository called <a href="https://github.com/NixOS/nixpkgs">nixpkgs</a>. And it’s very convenient. Every program that you could possibly install on NixOS has a default.nix file for you to build it from. And through NixOS’s package manager (which, by the way, is also called Nix and is distribution-agnostic and won’t mess with your dependencies) you are basically just running the .nix file and doing whatever it tells the computer to do. Once you figure out what the derivations (PKGBUILDs basically) are doing, you can start to figure out more and more about the Nix system. I’ve installed Nix (the package manager) on the school Linux computer to test it out. All you have to do is install it using the script on their site and append</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>    <span class="bu">source</span> <span class="st">&quot;</span><span class="va">$HOME</span><span class="st">/.nix-profile/etc/profile.d/nix.sh&quot;</span> </span></code></pre></div>
+<p>to your shell’s rc and it will set up all of the proper environmental variables for you. If you want to use nonfree programs, also append</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>    <span class="bu">export</span> <span class="va">NIXPKGS_ALLOW_UNFREE=</span>1</span></code></pre></div>
+<p>to your shell’s rc.</p>
+<p>I look forward to using the Nix package manager, though I will inevitably make the entire switch. I’ve started making some of my own nixpkgs <a href="https://github.com/swindlesmccoop/nixpkgs/">here</a> so I can keep my packages.</p>
+</body>
+</html>

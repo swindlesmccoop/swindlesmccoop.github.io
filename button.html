@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<style>
+	#toggle {
+		display: none;
+	}
+	
+	.button {
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #ccc;
+		cursor: pointer;
+	}
+	
+	#toggle:checked + .button {
+		background-color: #ff0000;
+	}
+	
+	.webring {
+		display: none;
+	}
+	
+	#toggle:checked ~ .webring {
+		display: block;
+	}
+</style>
+
+<input type="checkbox" id="toggle">
+<label for="toggle" class="button">Webring</label>
+<div class="webring">
+	<a target="_blank" href="https://yukinu.com" rel="noopener noreferrer"><img src="/banner/yukinu.gif" loading="lazy" alt="Yukinu"/></a>
+	<a target="_blank" href="http://alienozi.xyz" rel="noopener noreferrer"><img src="/banner/alienozi.png" loading="lazy" alt="Alienozi's Website for Electonics"/></a>
+	<a target="_blank" href="https://3xf.eu" rel="noopener noreferrer"><img src="/banner/fenix.png" loading="lazy" alt="Fenix"/></a>
+	<a target="_blank" href="https://tinfoil-hat.net" rel="noopener noreferrer"><img src="/banner/tinfoil-hat.png" loading="lazy" alt="tinfoil-hat"/></a>
+	<a target="_blank" href="https://nightt.neocities.org" rel="noopener noreferrer"><img src="/banner/nightt.gif" loading="lazy" alt="Nightt's retro art"/></a>
+	<a target="_blank" href="https://volta.neocities.org" rel="noopener noreferrer"><img src="/banner/aiws.png" loading="lazy" alt="Alice In Wonderland Syndrome"/></a>
+	<a target="_blank" href="https://jakesthoughts.xyz" rel="noopener noreferrer"><img src="/banner/jakesthoughts.gif" loading="lazy" alt="Jake's thoughts"/></a>
+	<a target="_blank" href="https://jakes-mail.top" rel="noopener noreferrer"><img src="/banner/jakes-mail.gif" loading="lazy" alt="Jake's mail"/></a>
+	<a target="_blank" href="https://getimiskon.xyz" rel="noopener noreferrer"><img src="/banner/getimiskon.png" loading="lazy" alt="getimiskon's space"/></a>
+	<a target="_blank" href="https://mayvaneday.org" rel="noopener noreferrer"><img src="/banner/mayvaneday-org.png" loading="lazy" alt="MayVaneDay Studios"/></a>
+	<a target="_blank" href="https://se7en-site.neocities.org" rel="noopener noreferrer"><img src="/banner/se7en-site.png" loading="lazy" alt="Se7en's site"/></a>
+	<a target="_blank" href="https://dataswamp.org/~lich" rel="noopener noreferrer"><img src="/banner/lich.png" loading="lazy" alt="lich's website"/></a>
+	<a target="_blank" href="http://radioccc.xyz" rel="noopener noreferrer"><img src="/banner/radio-chupacabra.png" loading="lazy" alt="Radio Chupacabra"/></a>
+	<a target="_blank" href="https://uwcur.neocities.org/" rel="noopener noreferrer"><img src="/banner/uwcur.png" loading="lazy" alt="uwcur"/></a>
+	<a target="_blank" href="https://saltorn.neocities.org" rel="noopener noreferrer"><img src="/banner/saltorn.png" loading="lazy" alt="Saltorn"/></a>
+	<a target="_blank" href="https://tilde.club/~parnell" rel="noopener noreferrer"><img src="/banner/parnell.png" loading="lazy" alt="J. Frank Parnell"/></a>
+	<a target="_blank" href="https://deurist.neocities.org" rel="noopener noreferrer"><img src="/banner/deurist.png" loading="lazy" alt="Urist"/></a>
+	<a target="_blank" href="https://tohya.net" rel="noopener noreferrer"><img src="/banner/tohya.png" loading="lazy" alt="saturnexplorers"/></a>
+	<a target="_blank" href="https://kyubit.neocities.org" rel="noopener noreferrer"><img src="/banner/kyubit.png" loading="lazy" alt="Kyubit"/></a>
+	<a target="_blank" href="https://grafo.zone" rel="noopener noreferrer"><img src="/banner/grafo.png" loading="lazy" alt="Grafo"/></a>
+	<a target="_blank" href="https://sftn.github.io" rel="noopener noreferrer"><img src="/banner/sftn.png" loading="lazy" alt="Strings From The Network"/></a>
+	<a target="_blank" href="https://lilibyte.net" rel="noopener noreferrer"><img src="/banner/lilibyte.gif" loading="lazy" alt="Lilibyte"/></a>
+	<a target="_blank" href="https://strlst.myogaya.jp/index.html" rel="noopener noreferrer"><img src="/banner/strlst.png" loading="lazy" alt="satorialistic"/></a>
+	<a target="_blank" href="https://skumsoft.ltd/slimenet" rel="noopener noreferrer"><img src="/banner/slime-net.gif" loading="lazy" alt="Slime-Net"/></a>
+	<a target="_blank" href="https://bendersteed.tech" rel="noopener noreferrer"><img src="/banner/bendersteed.jpg" loading="lazy" alt="Bendersteed"/></a>
+	<a target="_blank" href="https://theswissbay.ch/pdf" rel="noopener noreferrer"><img src="/banner/the-swiss-bay.jpg" loading="lazy" alt="The Swiss Bay"/></a>
+	<a target="_blank" href="https://six10.pw" rel="noopener noreferrer"><img src="/banner/six10.png" loading="lazy" alt="SIX10"/></a>
+	<a target="_blank" href="https://jack---91.neocities.org" rel="noopener noreferrer"><img src="/banner/jack91.gif" loading="lazy" alt="J@ck#91"/></a>
+	<a target="_blank" href="https://flammableduck.xyz" rel="noopener noreferrer"><img src="/banner/flammable-duck.png" loading="lazy" alt="Flammable Duck"/></a>
+	<a target="_blank" href="https://gapandfriends.neocities.org" rel="noopener noreferrer"><img src="/banner/gap-and-friends.png" loading="lazy" alt="Gap and friends"/></a>
+	<a target="_blank" href="https://purplevoid.neocities.org" rel="noopener noreferrer"><img src="/banner/purplevoid.png" loading="lazy" alt="purplevoid"/></a>
+	<a target="_blank" href="https://unix.tirol" rel="noopener noreferrer"><img src="/banner/unix-tirol.png" loading="lazy" alt="unix.tirol"/></a>
+	<a target="_blank" href="https://hakase-shrine.cf" rel="noopener noreferrer"><img src="/banner/shrine-of-hakase.gif" loading="lazy" alt="Shrine of Hakase"/></a>
+	<a target="_blank" href="https://extramundane.xyz" rel="noopener noreferrer"><img src="/banner/extramundane.jpg" loading="lazy" alt="The Extramundane"/></a>
+	<a target="_blank" href="https://omicronsetup.eu" rel="noopener noreferrer"><img src="/banner/omicron-setup.gif" loading="lazy" alt="Omicron Setup"/></a>
+	<a target="_blank" href="https://workingsea.neocities.org" rel="noopener noreferrer"><img src="/banner/workingsea.png" loading="lazy" alt="WorkingSea"/></a>
+	<a target="_blank" href="https://lukescabin.neocities.org" rel="noopener noreferrer"><img src="/banner/lukes-cabin.png" loading="lazy" alt="Luke's Cabin"/></a>
+	<a target="_blank" href="https://protocol7.xyz" rel="noopener noreferrer"><img src="/banner/protocol7.png" loading="lazy" alt="Protocol 7"/></a>
+	<a target="_blank" href="https://tard.zone" rel="noopener noreferrer"><img src="/banner/tard-zone.gif" loading="lazy" alt="Tard Zone"/></a>
+	<a target="_blank" href="https://beedge.neocities.org" rel="noopener noreferrer"><img src="/banner/beedge.png" loading="lazy" alt="Beedge"/></a>
+	<a target="_blank" href="https://0x1bi.net" rel="noopener noreferrer"><img src="/banner/0x1bi.png" loading="lazy" alt="0x1bi"/></a>
+	<a target="_blank" href="https://deadendshrine.online" rel="noopener noreferrer"><img src="/banner/dead-end-shrine.png" loading="lazy" alt="Dead End Shrine Online"/></a>
+	<a target="_blank" href="https://digilord.neocities.org" rel="noopener noreferrer"><img src="/banner/digilord.gif" loading="lazy" alt="Digilord"/></a>
+	<a target="_blank" href="https://godcock.neocities.org" rel="noopener noreferrer"><img src="/banner/godcock.jpg" loading="lazy" alt="Godcock"/></a>
+	<a target="_blank" href="https://michii.tk" rel="noopener noreferrer"><img src="/banner/michi.png" loading="lazy" alt="Michi"/></a>
+	<a target="_blank" href="https://erratas.neocities.org/" rel="noopener noreferrer"><img src="/banner/erratas.gif" loading="lazy" alt="Erratas"/></a>
+	<a target="_blank" href="https://nosleepforme.neocities.org" rel="noopener noreferrer"><img src="/banner/no-sleep.png" loading="lazy" alt="No Sleep"/></a>
+	<a target="_blank" href="https://room4.neocities.org" rel="noopener noreferrer"><img src="/banner/room-4.jpg" loading="lazy" alt="Room 4"/></a>
+	<a target="_blank" href="https://hen6003.xyz" rel="noopener noreferrer"><img src="/banner/hen6003.png" loading="lazy" alt="hen6003"/></a>
+	<a target="_blank" href="https://slushbin.org" rel="noopener noreferrer"><img src="/banner/slushbin.gif" loading="lazy" alt="Slushbin"/></a>
+	<a target="_blank" href="https://mm4rk3t.neocities.org" rel="noopener noreferrer"><img src="/banner/mm4rk3t.gif" loading="lazy" alt="mm4rk3t"/></a>
+	<a target="_blank" href="https://kassy.neocities.org" rel="noopener noreferrer"><img src="/banner/kassy.jpg" loading="lazy" alt="kassy"/></a>
+	<a target="_blank" href="https://cabbagesorter.neocities.org" rel="noopener noreferrer"><img src="/banner/cabbage-sorter.png" loading="lazy" alt="Cabbage Sorter"/></a>
+	<a target="_blank" href="https://xiixiixii.xyz" rel="noopener noreferrer"><img src="/banner/xiixiixii.gif" loading="lazy" alt="xiixiixii"/></a>
+	<a target="_blank" href="https://oedo808.neocities.org" rel="noopener noreferrer"><img src="/banner/oedo808.gif" loading="lazy" alt="oedo808"/></a>
+	<a target="_blank" href="https://xn--z7x.xn--6frz82g" rel="noopener noreferrer"><img src="/banner/xn-neko.gif" loading="lazy" alt="xn-neko"/></a>
+	<a target="_blank" href="https://jole.xyz" rel="noopener noreferrer"><img src="/banner/jole.png" loading="lazy" alt="jole"/></a>
+	<a target="_blank" href="https://confusion.codeberg.page" rel="noopener noreferrer"><img src="/banner/confusion.png" loading="lazy" alt="Confusion's Confusing Confusefest"/></a>
+	<a target="_blank" href="https://morituritesalutant.neocities.org" rel="noopener noreferrer"><img src="/banner/morituri-te-salutant.jpg" loading="lazy" alt="Morituri Te Salutant"/></a>
+	<a target="_blank" href="https://oversteer.xyz" rel="noopener noreferrer"><img src="/banner/oversteer.png" loading="lazy" alt="Oversteer"/></a>
+	<a target="_blank" href="https://lain.la" rel="noopener noreferrer"><img src="/banner/lain-la.png" loading="lazy" alt="lain.la"/></a>
+	<a target="_blank" href="https://arisu.world" rel="noopener noreferrer"><img src="/banner/arisu-world.png" loading="lazy" alt="arisu.world"/></a>
+	<a target="_blank" href="https://unpop.neocities.org" rel="noopener noreferrer"><img src="/banner/unpop.gif" loading="lazy" alt="Unpop"/></a>
+	<a target="_blank" href="https://driftt.neocities.org" rel="noopener noreferrer"><img src="/banner/driftt.png" loading="lazy" alt="Driftt"/></a>
+	<a target="_blank" href="https://chaox.ro" rel="noopener noreferrer"><img src="/banner/chaox.png" loading="lazy" alt="Chaox"/></a>
+	<a target="_blank" href="https://cached.world/blog" rel="noopener noreferrer"><img src="/banner/cached-world.png" loading="lazy" alt="cached.world"/></a>
+	<a target="_blank" href="https://itsevergreen.rip" rel="noopener noreferrer"><img src="/banner/evergreen.png" loading="lazy" alt="Evergreen"/></a>
+	<a target="_blank" href="https://mazak.neocities.org" rel="noopener noreferrer"><img src="/banner/mazak.png" loading="lazy" alt="Mazak"/></a>
+	<a target="_blank" href="https://smolthots.neocities.org" rel="noopener noreferrer"><img src="/banner/small-thoughts.jpg" loading="lazy" alt="Small Thoughts"/></a>
+	<a target="_blank" href="https://spectrum-of-consciousness.neocities.org" rel="noopener noreferrer"><img src="/banner/spectrum-of-consciousness.gif" loading="lazy" alt="Spectrum of Consciousness"/></a>
+	<a target="_blank" href="https://libertywitch.com" rel="noopener noreferrer"><img src="/banner/liberty-witch.png" loading="lazy" alt="Liberty Witch"/></a>
+	<a target="_blank" href="https://seapunk.xyz" rel="noopener noreferrer"><img src="/banner/seapunk.gif" loading="lazy" alt="Seapunk"/></a>
+	<a target="_blank" href="https://ty3r0x.chaox.ro" rel="noopener noreferrer"><img src="/banner/ty3r0x.png" loading="lazy" alt="Ty3r0x"/></a>
+	<a target="_blank" href="https://lckdscl.xyz" rel="noopener noreferrer"><img src="/banner/lckdscl.png" loading="lazy" alt="lckdscl"/></a>
+	<a target="_blank" href="https://qmaury.com" rel="noopener noreferrer"><img src="/banner/qmaury.jpg" loading="lazy" alt="qmaury"/></a>
+	<a target="_blank" href="https://sizeof.cat" rel="noopener noreferrer"><img src="/banner/sizeofcat.jpeg" loading="lazy" alt="size of cat"/></a>
+	<a target="_blank" href="https://galladite.net/~galladite" rel="noopener noreferrer"><img src="/banner/galladite.gif" loading="lazy" alt="galladite"/></a>
+	<a target="_blank" href="https://halogenstars.neocities.org" rel="noopener noreferrer"><img src="/banner/halogen-stars.png" loading="lazy" alt="halogen stars"/></a>
+	<a target="_blank" href="https://kirillov.neocities.org" rel="noopener noreferrer"><img src="/banner/kirillov.png" loading="lazy" alt="Kirillov"/></a>
+	<a target="_blank" href="https://nerdbox.neocities.org" rel="noopener noreferrer"><img src="/banner/nerdbox.png" loading="lazy" alt="nerdbox"/></a>
+	<a target="_blank" href="https://orizuru.neocities.org" rel="noopener noreferrer"><img src="/banner/orizuru.png" loading="lazy" alt="orizuru"/></a>
+	<a target="_blank" href="https://rainisnot.neocities.org" rel="noopener noreferrer"><img src="/banner/rain.png" loading="lazy" alt="rain"/></a>
+	<a target="_blank" href="https://tilde.team/~lemon" rel="noopener noreferrer"><img src="/banner/tocxjo.gif" loading="lazy" alt="tocxjo"/></a>
+	<a target="_blank" href="https://ophanim.neocities.org" rel="noopener noreferrer"><img src="/banner/ophanim.gif" loading="lazy" alt="ophanim"/></a>
+	<a target="_blank" href="https://newdigitalera.neocities.org" rel="noopener noreferrer"><img src="/banner/new-digital-era.png" loading="lazy" alt="New Digital Era"/></a>
+	<a target="_blank" href="https://adacayiseverim.neocities.org" rel="noopener noreferrer"><img src="/banner/adacayiseverim.png" loading="lazy" alt="adacayiseverim"/></a>
+	<a target="_blank" href="https://e3-l18-3.xyz/" rel="noopener noreferrer"><img src="/banner/kati.gif" loading="lazy" alt="Kati"/></a>
+	<a target="_blank" href="https://heimdall.pm" rel="noopener noreferrer"><img src="/banner/heimdall.gif" loading="lazy" alt="Heimdall"/></a>
+	<a target="_blank" href="https://minugahana.neocities.org" rel="noopener noreferrer"><img src="/banner/minugahana.png" loading="lazy" alt="Minu ga hana"/></a>
+	<a target="_blank" href="https://korosama.xyz/" rel="noopener noreferrer"><img src="/banner/korosama.gif" loading="lazy" alt="Korosama"/></a>
+	<a target="_blank" href="https://nomadalgia.xyz/" rel="noopener noreferrer"><img src="/banner/nomadalgia.gif" loading="lazy" alt="Nomadalgia"/></a>
+	<a target="_blank" href="https://urof.net" rel="noopener noreferrer"><img src="/banner/urof.gif" loading="lazy" alt="urof"/></a>
+	<a target="_blank" href="https://thecrypt.neocities.org/" rel="noopener noreferrer"><img src="/banner/thecrypt.gif" loading="lazy" alt="The crypt"/></a>
+	<a target="_blank" href="https://cosmica123.neocities.org/" rel="noopener noreferrer"><img src="/banner/cosmica123.png" loading="lazy" alt="cosmica123"/></a>
+	<a target="_blank" href="https://www.cozynet.org/" rel="noopener noreferrer"><img src="/banner/cozynet.gif" loading="lazy" alt="cozynet"/></a>
+	<a target="_blank" href="https://www.tyxton.net" rel="noopener noreferrer"><img src="/banner/tyxton.png" loading="lazy" alt="tyxton.net"/></a>
+	<a target="_blank" href="https://www.s-config.com/" rel="noopener noreferrer"><img src="/banner/s-config.png" loading="lazy" alt="s-config"/></a>
+	<a target="_blank" href="https://intr.cx" rel="noopener noreferrer"><img src="/banner/interloper.png" loading="lazy" alt="interloper"/></a>
+	<a target="_blank" href="https://letsdecentralize.org" rel="noopener noreferrer"><img src="/banner/letsdecentralize.gif" loading="lazy" alt="Let's decentralize!"/></a>
+	<a target="_blank" href="https://freakyjewishladies.neocities.org/" rel="noopener noreferrer"><img src="/banner/FJL.png" loading="lazy" alt="Freaky Jewish Ladies!"/></a>
+	<a target="_blank" href="https://cool-website.xyz/" rel="noopener noreferrer"><img src="/banner/cool-website.png" loading="lazy" alt="cool-website.xyz"/></a>
+	<a target="_blank" href="https://catgirlvomit.blog.fc2.com" rel="noopener noreferrer"><img src="/banner/catgirlvomit.png" loading="lazy" alt="catgirlvomit"/></a>
+	<a target="_blank" href="https://foreverliketh.is" rel="noopener noreferrer"><img src="/banner/foreverlikethis.gif" loading="lazy" alt="foreverliketh.is"/></a>
+	<a target="_blank" href="https://articexploit.xyz:8443/" rel="noopener noreferrer"><img src="/banner/the-arcade.gif" loading="lazy" alt="The Arcade"/></a>
+	<a target="_blank" href="https://mouse.services/" rel="noopener noreferrer"><img src="/banner/mouseservices.png" loading="lazy" alt="Mouse services"/></a>
+	<a target="_blank" href="https://vd1r.neocities.org/" rel="noopener noreferrer"><img src="/banner/vd1r.png" loading="lazy" alt="vd1r"/></a>
+	<a target="_blank" href="https://sadgirlsclub.wtf/" rel="noopener noreferrer"><img src="/banner/sadgirlsclub.png" loading="lazy" alt="sadgirlsclub.wtf"/></a>
+	<a target="_blank" href="https://www.neetventures.com/" rel="noopener noreferrer"><img src="/banner/neetventures.gif" loading="lazy" alt="Neet Ventures"/></a>
+	<a target="_blank" href="https://www.seththyer.com" rel="noopener noreferrer"><img src="/banner/seththyer.gif" loading="lazy" alt="SethThyer.com"/></a>
+</div>

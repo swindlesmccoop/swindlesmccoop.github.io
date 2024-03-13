@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Why do people want to make computing so complicated?" />
+  <meta name="dcterms.date" content="2022-05-24" />
+  <title>Could Things Just Be More...Simple?</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Could Things Just Be More...Simple?</h1>
+<p class="author"><em>Why do people want to make computing so complicated?</em></p>
+<p class="date">05/24/2022</p>
+</header>
+<p>Why does it seem like everything wants to make things so complicated? I want to be able to have granular control over my entire system, yet many programs, even open source software, try to obscure and abstract everything away from the user. Things like SystemD are just...so complicated to understand. I want an init system that starts my computer, I don’t want an entire tool suite that helps me manage my computer. I have my simple POSIX sh scripts to do that! This is why I use stuff like Runit. Services are simple shell scripts stored in on directory, and to enable them you just have to make a single symbolic link. It’s so easy.</p>
+<p>When it comes to packages, package managers are great. Even ones that I don’t really have a fondness for like apt are good. But when we get into the territory of snaps, flatpaks, AppImages, etc., then things get so confusing. Do everything through your native package manager! I hate things like pip, cargo, and tlmgr. All packages should be installed through your distributions package manager or compiled from source. Why do we want universal things to exist? Linux is made so that the user can have control over their own system. If they don’t like it, they can change it. But we’re getting to the point where programs just won’t support anything besides SystemD and PulseAudio. Now I actually do use PulseAudio because...well, I know literally nothing about Linux audio systems. But trying to fix PulseAudio is an unnecessary nightmare. Not because I do dumb things that will obviously break (though on occasion I have been known to do that), but because I have no idea what it’s actually doing. PulseAudio and SystemD seem as though they could really just split away from Linux and become a new operating system.</p>
+<p>I’m not really sure what I was supposed to be writing about, but I hate that people want universal, obscure, complicated programs for Linux. Maybe I should go to OpenBaSeD or another "distribution(?)" of it.</p>
+</body>
+</html>

@@ -1,0 +1,301 @@
+Animal Crossing/2.00 a.m..brstm
+Animal Crossing/Kapp'n's Song.brstm
+Animal Crossing/K.K. Cruisin'.brstm
+Animal Crossing/Title.brstm
+DK/DK Island Swing (DKC.TF).brstm
+DK/DK Island Swing (SSB).brstm
+DK/Fear Factory.brstm
+DK/Flight of the Zinger.brstm
+DK/Hot Top Volcano.brstm
+DK/Jungle Japes Mine Cart.brstm
+DK/K. Rool's Acid Punk.brstm
+DK/Lockjaw's Saga.brstm
+DK/Mini Mayhem (MvD2).brstm
+DK/Mining Melancholy.brstm
+DK/Nuts and Bolts.brstm
+DK/Rickety Rails.brstm
+DK/Rocket Barrel 2.brstm
+DK/Showdown at the Tower.brstm
+DK/Wizpig Challenge.brstm
+Fire Emblem/Battling Marth (FEF).brstm
+Fire Emblem/Companions.brstm
+Fire Emblem/Comrades.brstm
+Fire Emblem/Conquest ~ Ablaze.brstm
+Fire Emblem/Determination.brstm
+Fire Emblem/In the Name of Bern.brstm
+Fire Emblem/Spread Justice_b.brstm
+Fire Emblem/Spread Justice.brstm
+Fire Emblem/The Chosen Ones.brstm
+Fire Emblem/The Devoted-Black Knight.brstm
+Fire Emblem/Verdane Army.brstm
+Fire Emblem/Wheeling Corby.brstm
+F-Zero/Like a Snake_b.brstm
+F-Zero/Like a Snake.brstm
+F-Zero/Osc-Sync Carnival.brstm
+F-Zero/Port Town.brstm
+F-Zero/Results.brstm
+F-Zero/Silence.brstm
+F-Zero/Tenth Zone East.brstm
+F-Zero/The Long Distance of Murder.brstm
+Golden Sun/Battle with Saturos.brstm
+Golden Sun/Isaac Battle Theme.brstm
+Golden Sun/Jenna Battle Theme.brstm
+Golden Sun/Mars Lighthouse.brstm
+Golden Sun/Sailing the Karagol Sea.brstm
+Golden Sun/Venus Lighthouse.brstm
+Kid Icarus/In the Space-Pirate Ship.brstm
+Kid Icarus/Underworld (KIU).brstm
+Kirby/Another Dimension.brstm
+Kirby/Boss Battle [K64].brstm
+Kirby/Candy Constellation.brstm
+Kirby/Castle LoLoLo (KAR).brstm
+Kirby/Dark Castle (KPR).brstm
+Kirby/Factory Investigation (KRC).brstm
+Kirby/Float Islands.brstm
+Kirby/Gourmet Race (SSB).brstm
+Kirby/Heavy Lobster (KRC).brstm
+Kirby/Magma Flows.brstm
+Kirby/Masked Dedede (KTD).brstm
+Kirby/Meadow Breeze.brstm
+Kirby/Moonstruck Blossom.brstm
+Kirby/Pop Star.brstm
+Kirby/Ripple Star Map.brstm
+Kirby/Sand Canyon.brstm
+Kirby/Sand Canyon Pyramid (KPR).brstm
+Kirby/The Final Battle.brstm
+Kirby/Vs. Dark Matter (KPR).brstm
+Kirby/Vs. Dark Meta Knight (KTD).brstm
+Kirby/Vs. Marx.brstm
+Kirby/Vs. Meta Knight (KPR).brstm
+Kirby/Vs. Miracle Matter.brstm
+Kirby/Vs. The Wicked Company.brstm
+Konami/Aquarius (ReBirth).brstm
+Konami/Jungle Battle.brstm
+Konami/One Night in Neo Kobe City.brstm
+Konami/Redial.brstm
+Konami/Reincarnated Soul (ReBirth).brstm
+Konami/Something Ghostly (ReBirth).brstm
+Konami/Vampire Killer (ReBirth).brstm
+Mario/Battle Canyon.brstm
+Mario/Boss (M&S 2016).brstm
+Mario/Bowser Jr.'s Mad.brstm
+Mario/Bowser's Rage.brstm
+Mario/Come On! (SS+BM).brstm
+Mario/Creative Exercise.brstm
+Mario/Final Bowser (M&S 2016).brstm
+Mario/Fury Volcano.brstm
+Mario/Horror Land.brstm
+Mario/In The Final.brstm
+Mario/It's Battle Time!.brstm
+Mario Kart/Bowser's Castle [MK8].brstm
+Mario Kart/Bowser's Castle [MKDD].brstm
+Mario Kart/Coconut Mall.brstm
+Mario Kart/Kalimari Desert.brstm
+Mario Kart/Koopa Troopa Beach.brstm
+Mario Kart/Luigi's Mansion.brstm
+Mario Kart/Mount Wario.brstm
+Mario Kart/Neo Bowser City (MK8).brstm
+Mario Kart/Rainbow Road [SMK].brstm
+Mario Kart/Title [MKSC].brstm
+Mario Kart/Toad's Factory.brstm
+Mario/Lucky Mario, Let's Go!.brstm
+Mario/Mr. L, Green Thunder!.brstm
+Mario/Tropical Island.brstm
+Mario/Waluigi's Island.brstm
+Mario/X-Naut Fortress.brstm
+Melee/Break the Targets.brstm
+Melee/Final Destination.brstm
+Melee/Metal Battle.brstm
+Melee/Multi-Man Melee 2.brstm
+Melee/Trophy.brstm
+Metal Gear/Ascent.brstm
+Metal Gear/Gander 1.brstm
+Metal Gear/Main Theme (Beatmania).brstm
+Metal Gear/Main Theme.brstm
+Metal Gear/Tanker Incident.brstm
+Metroid/Brinstar (SSB).brstm
+Metroid/Chozo Laboratory.brstm
+Metroid/Green Brinstar.brstm
+Metroid/Magmoor Caverns (MP).brstm
+Metroid/Metroid Prime Essence.brstm
+Metroid/Mother Brain.brstm
+Metroid/Phendrana Drifts Depths.brstm
+Metroid/Skytown.brstm
+Metroid/Surface of SR-388.brstm
+Metroid/Vs. Dark Samus [MP2].brstm
+Metroid/Vs. Serris.brstm
+Metroid/Vs. Sylux.brstm
+Modern/Ally Risker's.brstm
+Modern/Furnace.brstm
+Modern/Jungle [Kururin].brstm
+Modern/Main Theme [Chibi-Robo!].brstm
+Modern/Manzai Birds.brstm
+Modern/Midboss Battle (Pikmin 3).brstm
+Modern/Remix 10.brstm
+Modern/Sami's Theme.brstm
+Modern/See-Saw.brstm
+Modern/The One Who Rules All.brstm
+Modern/Wii Shop Channel.brstm
+Modern/Wrestler's Words.brstm
+Modern/You Will Know Our Names.brstm
+Mother/Battle Against an Otherworldy Foe.brstm
+Mother/Battle Againt a Machine.brstm
+Mother/Because I Love You.brstm
+Mother/Fallin' Love.brstm
+Mother/Mecha-Drago.brstm
+Mother/Onett.brstm
+Mother/Sanctuary Guardian.brstm
+Mother/Saturn Valley.brstm
+Mother/Strong One.brstm
+Mother/The Attic's a Dungeon!.brstm
+Mother/Your Name, Please.brstm
+Pokemon/Battle! Champion Blue (Origins).brstm
+Pokemon/Battle! Champion Diantha.brstm
+Pokemon/Battle! Colress.brstm
+Pokemon/Battle! Ho-Oh.brstm
+Pokemon/Battle! Lorekeeper Zinnia.brstm
+Pokemon/Battle! Lugia.brstm
+Pokemon/Battle! Mewtwo [Stadium].brstm
+Pokemon/Battle! Rival (ORAS).brstm
+Pokemon/Battle! Team Aqua - Team Magma (ORAS).brstm
+Pokemon/Battle! Team Rocket.brstm
+Pokemon/Battle! Wild Pokemon (B2W2).brstm
+Pokemon/Bike Theme [DP].brstm
+Pokemon/Decisive Battle! N.brstm
+Pokemon/Defy the Legends.brstm
+Pokemon/Dialga's Fight to the Finish.brstm
+Pokemon/Driftveil City.brstm
+Pokemon/First Battle.brstm
+Pokemon/It's a Monster House!.brstm
+Pokemon/Main Theme (SSB).brstm
+Pokemon/Miror B.'s Retro Groove.brstm
+Pokemon/Normal Battle.brstm
+Pokemon/Phos Volcano.brstm
+Pokemon/Ranger Wild Battle Medley.brstm
+Pokemon/Rival Encounter! [GS].brstm
+Pokemon/Route 228 Night.brstm
+Pokemon/Saffron City.brstm
+Pokemon/Sootopolis City (ORAS).brstm
+Pokemon/Super Training!.brstm
+Pokemon/Violet City.brstm
+Pokemon/Vs Legendary Pokemon [BW].brstm
+Project M/Electroplankton.brstm
+Project M/Main Theme.brstm
+Project M/Menu.brstm
+Project M/Rest Area.brstm
+Retro/Bioplant.brstm
+Retro/Drake Lake.brstm
+Retro/Duck Hunt Medley.brstm
+Retro/Dungeon [StarTropics].brstm
+Retro/Gyromite.brstm
+Retro/House Special.brstm
+Retro/Jungle Bump.brstm
+Retro/Minor Circuit.brstm
+Retro/Octopus.brstm
+Retro/Oil Panic.brstm
+Retro/Second Armageddon.brstm
+Retro/Staff Roll [FDC].brstm
+Retro/The Prince's Adventure.brstm
+Retro/Title [SRFX].brstm
+Retro/V Commander Aim.brstm
+SEGA/Fly Like a Butterfly.brstm
+SEGA/Game Over (AB).brstm
+SEGA/Go Straight (PXZ2).brstm
+SEGA/Teknopathetic.brstm
+SEGA/Wolf! Bear Your Fangs!.brstm
+Sonic/A Ghost's Pumpkin Soup.brstm
+Sonic/Be Cool, Be Wild and Be Groovy.brstm
+Sonic/Chaos Angel.brstm
+Sonic/Chemical Plant Zone.brstm
+Sonic/City Escape.brstm
+Sonic/Door into Summer (SG).brstm
+Sonic/Flying Battery Zone.brstm
+Sonic/Green Hill Zone (SG).brstm
+Sonic/Haunted Ship.brstm
+Sonic/Lava Reef Zone.brstm
+Sonic/Lights, Camera, Action!.brstm
+Sonic/Marble Zone.brstm
+Sonic/Metal Harbor.brstm
+Sonic/Midnight Greenhouse.brstm
+Sonic/Ocean Base.brstm
+Sonic/Planet Wisp (SG).brstm
+Sonic/Seascape.brstm
+Sonic/Seaside Hill.brstm
+Sonic/Sky Sanctuary (Generations).brstm
+Sonic/Spring Yard Zone.brstm
+Sonic/Tabloid Jargon.brstm
+Sonic/Theme of Knuckles.brstm
+Sonic/Turquoise Hill Zone.brstm
+Sonic/Unknown from M.E..brstm
+Sonic/Vela-Nova.brstm
+Sonic/Vs. Knuckles_b.brstm
+Sonic/Vs. Knuckles.brstm
+Sonic/What U Need.brstm
+SSB64/Bonus.brstm
+SSB64/Duel Zone.brstm
+SSB64/Duel Zone (Remix).brstm
+SSB64/Metal Mario Fight.brstm
+SSB64/Vs. Master Hand.brstm
+SSB64/Vs. Master Hand (Remix).brstm
+Star Fox/Corneria [Zero].brstm
+Star Fox/Eladard.brstm
+Star Fox/Frontier Serenade.brstm
+Star Fox/MacBeth.brstm
+Star Fox/Main Theme (SSB).brstm
+Star Fox/Reunion.brstm
+Star Fox/Venom Boss.brstm
+Super Mario/Athletic [SML2].brstm
+Super Mario/Battle with Bowser (SMAS).brstm
+Super Mario/Battle with Wario_b.brstm
+Super Mario/Battle with Wario.brstm
+Super Mario/Bowser's Galaxy Generator (M&S 2014).brstm
+Super Mario/Bowser's Highway Showdown.brstm
+Super Mario/Bowser's Theme.brstm
+Super Mario/Buoy Base Galaxy (M&S 2014).brstm
+Super Mario/Castle [SMW].brstm
+Super Mario/Hazy Maze Cave.brstm
+Super Mario/Koopa Road.brstm
+Super Mario/Muda - Birabuto.brstm
+Super Mario/Overworld [SMB2]_b.brstm
+Super Mario/Overworld [SMB2].brstm
+Super Mario/Overworld [SMB]_b.brstm
+Super Mario/Overworld [SMB].brstm
+Super Mario/Overworld (SSB).brstm
+Super Mario/Overworld - Star Medley.brstm
+Super Mario/Secret Course.brstm
+Super Mario/The Evil King Bowser (FS).brstm
+Super Mario/Ultimate Koopa.brstm
+Super Mario/Vs. Mode (NSMB).brstm
+Super Mario/Wario's Castle.brstm
+Super Mario/World Bowser.brstm
+Victory!/Bowser.brstm
+Wario/Body Rock.brstm
+Wario/Count Cannoli.brstm
+Wario/Crescent Moon Village.brstm
+Wario/Greenhorn Forest.brstm
+Wario/Greenhorn Ruins (WL - Shake It!!).brstm
+Wario/Level 2 [VB].brstm
+Wario/Lost in the Ruins.brstm
+Wario/Opening.brstm
+Wario/Pirate Level.brstm
+Wario/Stonecarving City.brstm
+Wario/Survival Fever.brstm
+Wario/Terrormisu.brstm
+Wario/Tower of Revival.brstm
+Yoshi/Crystal Caves.brstm
+Yoshi/Floating Castle.brstm
+Yoshi/On The Beach.brstm
+Yoshi/Type A.brstm
+Yoshi/Yoshi Medley.brstm
+Yoshi/Yoshi's Song (Melee).brstm
+Yoshi/Yoshi's Song (SSB).brstm
+Zelda/Ballad of the Goddess.brstm
+Zelda/Ballad of the Windfish.brstm
+Zelda/Ganondorf Battle.brstm
+Zelda/Hyrule Castle (ALBTW).brstm
+Zelda/Main Theme (Melee).brstm
+Zelda/Main Theme (SSB).brstm
+Zelda/Milk Bar.brstm
+Zelda/Saria's Song.brstm
+Zelda/The Dark World (ALBTW).brstm
+Zelda/Title [Crossbow].brstm

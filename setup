@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="/css/sitewide.css">
+<style>h3 { color:white };</style>
+<title>Hardware/Software I Use</title>
+
+<h1>Hardware</h1>
+<h2>Desktop</h2>
+<h3>
+	CPU: Ryzen 7 3700X<br>
+	GPU: Nvidia RTX 3070<br>
+	Memory: 16GB<br>
+	Storage: 1TB NVMe Samsung 970 Evo Pro SSD
+</h3>
+<h2>Laptop</h2>
+<h3>
+	Model: ThinkPad T420s<br>
+	CPU: Intel i5-2520M @ 3.2GHz<br>
+	Memory: 8GB<br>
+	Storage: 128GB SSD (internal), 500GB Kingston SSD (UltraBay)<br>
+<!--
+<h2>Phone (cringe)</h2>
+<h3>
+	Model: Google Pixel 6a<br>
+	Storage: 128GB<br>
+</h3>
+-->
+<h1>Software</h1>
+<h3>
+	Operating System: <a href="https://openbsd.org">OpenBSD</a><br>
+	Window Manager: <a href="https://github.com/swindlesmccoop/dwm">DWM</a><br>
+	Phone Operating System: <a href="https://grapheneos.org">GrapheneOS</a><br>
+	Editor: Vim<br>
+	Shell: Bash<br>
+	PDF Reader: Firefox<br>
+	Browser: Firefox <a href="https://github.com/swindlesmccoop/browser-extensions">with Extensions</a><br>
+	Terminal Emulator: <a href="https://github.com/swindlesmccoop/st">st</a><br>
+	Search Engine: <a href="https://searx.space">Searx</a><br>
+	Password Manager: Pass<br>
+	Document Creation: Writing LaTeX files in Vim<br>
+</h3>

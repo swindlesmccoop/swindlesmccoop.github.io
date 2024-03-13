@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Apple users utterly BTFO" />
+  <meta name="dcterms.date" content="2023-06-06" />
+  <title>Apple Product Users Are Blocked From My Website (Thanks Nginx)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Apple Product Users Are Blocked From My Website (Thanks Nginx)</h1>
+<p class="author">Apple users utterly BTFO</p>
+<p class="date">06/06/2023</p>
+</header>
+<p>It’s no secret that I hate Apple products. At least, ever since they started making the iPod 6. Everything before that was fine if that was your thing, proprietary hardware, proprietary OS, but it just works. Nowadays, not only does it not work hald of the time, but the people that own Apple products are pretentious idiots. I decided to make the executive decision to simple prevent them from accessing my website. If you are using a iMac, iPhone, iPod, iPad, or MacBook, you’ll see an <a href="/errors/apple.html">error page</a>.</p>
+<p>If you want to do this yourself, it’s very simple, at least for nginx (which you should be using, Apache sucks). All you have to do is add lines 6-8 of the below code to your nginx configuration, then restart nginx. Make sure to have a page at /errors/apple.html or else nothing will be shown. I’ve included some lines around it so you can see in better context where the lines should go in your config.</p>
+<pre><code>1  server {
+2      listen 443 ssl;
+3      index index.html;
+4      server_name swindlesmccoop.xyz;
+5
+6      if ($http_user_agent ~* &quot;Macintosh|iPhone|iPod|iPad|Mac OS X&quot;) {
+7          rewrite ^((?!apple\.html).)*$ /errors/apple.html break;
+8      }
+9  }</code></pre>
+<p>I like this method because not matter what page somebody clicks on that links to your site, it will always display the Apple user message.</p>
+<p>Keep in mind, this only works if the useragent string containes one of those things that I said before, but in all honesty, most people using Apple products don’t care about their privacy anyways, meaning they probably wouldn’t be spoofing it at all.</p>
+</body>
+</html>

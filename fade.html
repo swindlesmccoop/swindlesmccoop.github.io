@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @keyframes fade {
+            0% {opacity: 1;}
+            33% {opacity: 0;}
+            66% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+
+        @keyframes fade2 {
+            0% {opacity: 0;}
+            33% {opacity: 1;}
+            66% {opacity: 0;}
+            100% {opacity: 0;}
+        }
+
+        @keyframes fade3 {
+            0% {opacity: 0;}
+            33% {opacity: 0;}
+            66% {opacity: 1;}
+            100% {opacity: 0;}
+        }
+
+        .fade {
+            position: absolute;
+            animation: fade 6s infinite;
+            width: 100%;
+            height: 100%;
+        }
+
+        .fade2 {
+            position: absolute;
+            animation: fade2 6s infinite;
+            width: 100%;
+            height: 100%;
+        }
+
+        .fade3 {
+            position: absolute;
+            animation: fade3 6s infinite;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img class="fade" src="/images/navi.png">
+    <img class="fade2" src="/images/vim_created_blue.png">
+    <img class="fade3" src="/images/swindlesmccoop.png">
+</body>
+</html>
+

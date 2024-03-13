@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="It did not go as smoothly as I thought it was going to, but I’m glad I did it" />
+  <meta name="dcterms.date" content="2022-07-10" />
+  <title>I Switched to OpenBSD</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">I Switched to OpenBSD</h1>
+<p class="author"><em>It did not go as smoothly as I thought it was going to, but I’m glad I did it</em></p>
+<p class="date">07/10/2022</p>
+</header>
+<p>The idea initially came from me finding out about Haiku a long time ago. Maybe it was in March or something? I can’t remember. Anyways, I thought the idea of a pure UNIX system would be really cool! Well, Haiku isn’t exactly a UNIX derivative, it comes from BeOS, which itself was also a really cool competitor to Windows back in its day, just never caught on. So I decided to take a look at Solaris, which as far as I know came directly from the original UNIX codebase. Unfortunately, that is both corporate funded and doesn’t really take any sort of patches or anything from the larger free software community, so that was out the Window. The next thing I looked at were the various BSDs, but I quickly became disinterested and finished whatever homework assignment I was supposed to be doing at the time.</p>
+<p>By trade, I’m a Linux user. But am I really? I wanted to see how much of my knowledge was of Linux and how much was of UNIX-based operating systems. After all, I put on my Resume that I can work with UNIX-based and UNIX-like operating systems, so I should probably get a handle on the wider UNIX varieties, right? Well it was around this time that I found the RootBSD Odysee channel, and I watched his video "Is OpenBSD Based?" and it actually seemed super based to me. This was actually about two days after I accidentally deleted my entire home directory (well, most of it, I saved some stuff, thankfully my git repos were included in what I saved), so I really had nothing to lose. I backed up what little I still had left and just went balls-deep into OpenBSD. At least, I tried to – I installed the entire thing without a single guide, and it took me a few hours to figure out how to actually install the kernel and whatnot. But after that it was smooth sailing. I installed i3-gaps and immediately noticed that i3blocks did not have emoji support. Well, none of the emoji fonts I installed ended up changing anything, but that was a blessing in disguise since I ended up just switching to Polybar anyways and I have a text-only status bar. It’s more informative than interactive, which I actually have taken a liking too. Anyways, I was shocked at how many things simply did not work on OpenBSD. Most of my scripts would rely on a couple of Linux-specific things that would completely break the entire thing, meaning I would have to remake it...but all of my scripts still work on Linux as far as I know, so I’m really just making my scripts even more based and portable, which is a lot of fun. This way I now have knowledge of the things added and removed from Linux. I got kind of sick of i3 while I was still using Linux, and there were some weird OpenBSD-specific quirks, so I just did the based thing to do and switched to DWM. And then BSPWM because I don’t want to configure DWM. One day, but not today. Anyways, I started ricing BSPWM and started using Polybar and SXHKD and a few other tools that I wouldn’t have been able to see myself using before, so I think that’s pretty cool.</p>
+<p>I kind of glossed over OpenBSD Ports, but it’s exactly what it sounds like: software ported from Linux to OpenBSD. And most of the time things work pretty much perfectly, as long as you build them the right way. However, there are a few packages that are not part of the ports collection, such as xdo and vifm. I have an Arch Linux package repository <a href="https://github.com/swindlesmccoop/swindles-arch-packages">here</a>, and all you have to do to access the packages in it is add a few lines to /etc/pacman.conf, which is really easy. Even though it’s a different package manager on OpenBSD, the packaging itself kind of made sense, so I tried to create my own OpenBSD package repo, however when I told my system to point to that instead of the official repo, then it just told me that the package directory was empty...which it’s not. I’m gonna talk to some people that know more about BSD systems to see what I can do about this.</p>
+<p>I don’t know what the moral of the story is or anything, but OpenBSD and Linux aren’t that different at a fundamental level once you understand what both systems are actually doing. At this point, pretty much everything important works completely fine on OpenBSD.</p>
+</body>
+</html>

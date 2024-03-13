@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I’m more of a BSD kind of guy…" />
+  <meta name="dcterms.date" content="2022-10-21" />
+  <title>I’m Not Even A Linux User Anymore</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">I’m Not Even A Linux User Anymore</h1>
+<p class="author"><em>I’m more of a BSD kind of guy…</em></p>
+<p class="date">10/21/2022</p>
+</header>
+<p>Sorry for not posting in a long time, life has gotten the better of me. I’ve been uploading videos to my <a href="/link/youtube.html">YouTube channel</a> as of late, however, so make sure to check those out.</p>
+<p>I stopped using Linux in July. Ever since, I’ve been much happier with my computing. Not only do I not have to deal with Code of Conduct garbage, but I have a much simpler and more modular system that uses much less resources. When I was on OpenBSD, I actually was happy with my choice - that is, until I saw how slow its package manager was. If the OpenBSD development team made pkg faster to use, then I would go right back. But until then, I’m going to stick with FreeBSD. I often have a slow connection, and doing anything related to package management on OpenBSD was painfully slow because the manager itself was slow on top of the speed of my internet connection. However, FreeBSD’s pkg is much faster. I’m not sure why (maybe it’s written in something that isn’t Perl?), but I enjoy using it much more. FreeBSD also much more software available in the ports tree, though the port Makefiles seem to be a bit more complicated, so I’m going to have to semi-relearn porting so I can do <a href="https://github.com/swindlesmccoop/freebsd-ports">FreeBSD</a> ports. I already have a bunch of <a href="https://github.com/swindlesmccoop/openbsd-ports">OpenBSD ports</a>, so I’ll bring those over to FreeBSD first.</p>
+<p>Ever since I’ve made the switch, I’ve thought about the possibilities of non-Linux systems. I want to give both Solaris and Haiku a try as well, though I’m unsure of their quality. SerenityOS seems kind of cool but it’s not even ready to run as a daily driver from what I’ve heard, so I’ll hold off on that for now.</p>
+<p>Short story about OS migration, though: make sure to have all of your data backed up to an external drive formatted as NTFS so literally any device is able to read it. I have two drives in my ThinkPad, the one that came with it (used for the OS) and a Kingston 500GB SSD that goes in the UltraBay. I smartly made the decision to mount the Kingston SSD to /home, that way I get high speed and I can easily move the drive to another ThinkPad (when I get an X220 or something). However, I didn’t think about FS compatibility. I created that disk with a partition that spanned the entire thing with FFSv2, which is exclusive to OpenBSD. However, by the time that I went to edit /etc/fstab to mount the drive on boot, I realized that I can’t even mount it regularly. I ended up erasing it because nothing of value was really lost. My suckless builds are all on GitHub and I had already had a large data loss beforehand, so I didn’t really lose much besides a few memes and my wallpaper collection (R.I.P. to those though).</p>
+</body>
+</html>

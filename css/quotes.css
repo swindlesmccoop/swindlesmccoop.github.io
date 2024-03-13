@@ -1,0 +1,48 @@
+p {text-align: left;}
+
+@font-face {
+	font-family: ffvii;
+	src: url(/misc/ffvii.otf);
+}
+
+/* Final Fantasy VII-style blockquotes */
+blockquote.vii,
+body:not(.page) blockquote:not(.plain) {
+	font-family: ffvii;
+  	background: #012b7d; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left top, #0154ad 0%, #002b8a 25%, #010068 50%, #000047 75%, #000123 100%); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #0154ad 0%, #002b8a 25%, #010068 50%, #000047 75%, #000123 100%); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #0154ad 0%, #002b8a 25%, #010068 50%, #000047 75%, #000123 100%); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #0154ad 0%, #002b8a 25%, #010068 50%, #000047 75%, #000123 100%); /* Standard syntax, must be last */
+	border:ridge 0.2em;
+	border-radius: 0.2em;
+	box-shadow: 0 0 3px #777777 inset;
+	display: inline-block;
+	line-height: 1.8em;
+	margin-bottom:0.5em;
+	min-width: 20em;
+	min-height: 2em;
+	padding: 0.3em 0.8em 0;
+}
+
+blockquote.vii p,
+body:not(.page) blockquote:not(.plain) p {
+	color: #e9e7e7 !important;
+	font-family: ffvii;
+	font-size: 1.1em;
+	text-shadow: 2px 2px #222;
+}
+
+blockquote.vii p:last-child,
+body:not(.page) blockquote:not(.plain) p:last-child {
+	margin-bottom: 0.5em;
+}
+
+/* Plain blockquotes */
+blockquote.plain,
+body.page blockquote:not(.vii) {
+	font-family: ffvii;
+	border-left: solid 1px #b3b3b3;
+	font-style: italic;
+	padding-left: 2em;
+}

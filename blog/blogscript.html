@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="It’s only 15 lines of POSIX sh script" />
+  <meta name="dcterms.date" content="2022-05-19" />
+  <title>New Blogging Script</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">New Blogging Script</h1>
+<p class="author"><em>It’s only <strong>15</strong> lines of POSIX sh script</em></p>
+<p class="date">05/19/2022</p>
+</header>
+<p>I haven’t pushed the updated script to the git page yet, but I’ve fully automated my blog posting now. All I have to do is run blogpost in my terminal and it does pretty much everything for me. It puts all of the contents of this page by reading a couple of variables (if you want to see what it does, look at the source of this page and the script). It’s very simple, and it has pretty much three features:</p>
+<ol>
+<li><p>Create HTML of actual post</p></li>
+<li><p>Update <a href="/blog/">blog index</a></p></li>
+<li><p>Append relevant info to RSS feed</p></li>
+</ol>
+<p>It’s quite simple really. It’s very quick and requires very little maintenance. All I have to do is SSH into my server, enter the blog directory, run the command, and type out a blog post. Too simple!</p>
+<p>You can find the script <a href="https://github.com/swindlesmccoop/not-just-dotfiles/blob/master/.local/bin/blogpost">here</a>.</p>
+</body>
+</html>

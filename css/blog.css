@@ -1,0 +1,106 @@
+@import "/css/sitewide.css";
+
+html, body {
+	max-width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	color: white;
+	font-family: computer-modern !important;
+}
+
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1 {
+	margin-bottom: 0px;
+	text-align: left;
+	font-family: computer-modern !important;
+	font-size: 40px;
+}
+
+h2 {
+	color: white;
+}
+
+p.author {
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+p.author, p.date {
+	font-size: 19px;
+}
+
+p {
+	text-align: left;
+	margin-top: 0px;
+	font-size: 18px;
+	font-family: computer-modern !important;
+}
+
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+b {
+	color: #A1BFED;
+	font-family: computer-modern-bold !important;
+}
+
+div.figure {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.posts {
+	font-size: 18px;
+}
+
+a {
+	color: royalblue;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+figure img {
+	margin-bottom: 10px;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+pre {
+	background-color: rgb(18,18,31,0.7);
+	padding: 10px;
+	border: 3px solid gray;
+	border-radius: 20px;
+}
+
+code span.fu {
+	color: lightblue !important;
+}
+
+code span.va {
+	color: #1e40a6;
+}

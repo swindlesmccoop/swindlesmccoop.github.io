@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="We are so back" />
+  <meta name="dcterms.date" content="2023-05-11" />
+  <title>This Blog is Now Written in LaTeX</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">This Blog is Now Written in LaTeX</h1>
+<p class="author"><em>We are so back</em></p>
+<p class="date">05/11/2023</p>
+</header>
+<p>I’m gonna be honest, I didn’t think I could ever do it. But I did. I’ll write below all about the stages that development went through, so if you just want to look at the program and the docs, you can find all of that <a href="https://github.com/swindlesmccoop/BlOgTeX">here</a>.</p>
+<p>It supports lots of formatting options. For example, we can format text in the normal types of ways, like <strong>bold</strong>, <em>italics</em>, <strong><em>bold italics</em></strong>, <a href="/">links</a> (though those require the import of the hyperref package) and can support things like code syntax highlighting with the use of packages. Note that the packages do not need to actually be installed on the system because that isn’t how pandoc works. Don’t question it.</p>
+<p>Images are much easier to insert too thankfully:<br />
+<a href="https://swindlesmccoop.xyz"><img src="/images/swindlesmccoop.gif" height="70" alt="image" /></a></p>
+<p>And I would have never thought about making tables before:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Shift</td>
+<td style="text-align: center;">Begins</td>
+<td style="text-align: center;">Ends</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">First</td>
+<td style="text-align: center;">9:00 AM</td>
+<td style="text-align: center;">5:00 PM</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Second</td>
+<td style="text-align: center;">5:00 PM</td>
+<td style="text-align: center;">1:00 AM</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Third</td>
+<td style="text-align: center;">1:00 AM</td>
+<td style="text-align: center;">9:00 AM</td>
+</tr>
+</tbody>
+</table>
+<p>I don’t need to use &lt;br&gt;&lt;br&gt; to start new paragraphs or anything anymore - life is good.</p>
+<p>The idea first came from learning about <a href="https://gohugo.io/">Hugo</a>, which many people have emailed me about, and it can compile Markdown documents into HTML. However, I don’t really like Markdown all that much because the syntax is weird to me, and it doesn’t have nearly as many features os a markup language like HTML. But it got me thinking about compiling Markup languages to HTML for something like a blog.</p>
+<p>It was about a year ago that I <a href="/blog/latex.html">first started using LaTeX seriously</a>, and I quickly discovered that it’s the best markup language that mankind has been blessed with. It has nice syntax that’s easy to learn, it’s extensible, it’s flexible, and has plenty of features. However, the actual LaTeX compiler is pretty bloated. I run a lot of services on my server inside of Docker, just in case someone tries to root me or something that I have an extra layer of security. However, my server only has 15GB of storage, and a full LaTeX installation is around 7GB or so - ridiculous. So what was my solution?</p>
+<p>I tried to use a minimal installation of LaTeX, but that didn’t provide htlatex, so I knew I would need a slightly larger package. I tried using one that did provide it, but as it turns out, it didn’t supply packages needed for anything useful, like hyperref which is used for links. So for a while I was just compiling the files on my local machine and seeing how things worked.</p>
+<p>Eventually I got sick of constantly having to scp files back and forth, which prompted me to look up something like "compile latex to html" on a whim, which is when I found out about pandoc. Way less dependencies, way faster than htlatex - we ball.</p>
+<p>I had received a few emails and a couple messages from readers of my blog that I should start putting the actual contents of my blog posts in my <a href="/rss.xml">RSS feed</a>, which I didn’t do before because it was tedious to do manually, but now I can do because it is all completely automated. I run "make" and everything is done for me basically, I just have to write the .tex files.</p>
+<p>I’m gonna make a video about this soon, but I wanted to let you guys know first because, well, you’re reading the fruits of my labor.</p>
+</body>
+</html>
