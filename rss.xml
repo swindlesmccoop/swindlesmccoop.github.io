@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="/css/rss.css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+<title>Serial Experiments Linux</title>
+<description>Might not always have to do with Linux!</description>
+<language>en-us</language>
+<link>https://swindlesmccoop.xyz/rss.xml</link>
+<atom:link href="https://swindlesmccoop.xyz/rss.xml" rel="self" type="application/rss+xml" />
+
+<image>
+<title>Serial Experiments Linux</title>
+<url>https://swindlesmccoop.xyz/images/dalain.png</url>
+<link>https://swindlesmccoop.xyz/rss.xml</link>
+</image>
+
+<!--Content-->
+
+<item>
+<title>I forgot to buy a server</title>
+<guid>https://swindlesmccoop.xyz/blog/server.html</guid>
+<pubDate>Tue, 09 Jan 2024</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Expect some downtime while I get everything figured out" />
+  <meta name="dcterms.date" content="2024-01-09" />
+  <title>I forgot to buy a server</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>Expect some downtime while I get everything figured out</em></p>
+</header>
+<p>I almost just lost it all on accident.</p>
+<p>I’ve been using Njalla as my server and domain provider for a while now. Domain-wise, there really isn’t much better that I can really register with without giving out all of my personal information. Server-wise, I could be doing a lot better. Not only are their policies, let’s just say <a href="https://crippled.media/free-speech-vps-providers-put-to-the-test">interesting</a> (scroll to Njalla section), but they’re pretty expensive in return for not much benefit.</p>
+<p>However, I decided to check my email today since I hadn’t in a long time, and I realized my server is expiring literally tomorrow. Gonna zip it all up into a tarball so I can move it straight over to my new server when I get one.</p>
+<p>Based on that list that I linked previously, I’m considering the following providers at the moment (in no particular order):</p>
+<ul>
+<li><p>Kyun</p></li>
+<li><p>BuyVM/Frantech</p></li>
+<li><p>Privex</p></li>
+</ul>
+<p>All of them are mostly in my price range, it’s mostly about getting the actual Monero to pay for what I want, which will take me some time. This website will be going down for a hot minute probably while I figure out what provider I’m gonna use and how I’m going to pay since I don’t really hold any cryptocurrency at all. I’ll see about throwing all the static contents up on like a Github site or something and mirroring it to this domain so hopefully we aren’t down for too long.</p>
+<p>Also, a couple of those providers also allow you to anonymously purchase a domain from them as well, so that could be something worth checking out if you’re in the same boat as me.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Bottled Water Is The Biggest Scam of All Time</title>
+<guid>https://swindlesmccoop.xyz/blog/bottledwater.html</guid>
+<pubDate>Sat, 15 Jul 2023</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Please hear me out on this one..." />
+  <meta name="dcterms.date" content="2023-07-15" />
+  <title>Bottled Water Is The Biggest Scam of All Time</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author">Please hear me out on this one...</p>
+</header>
+<p>Think about the last time that you bought a bottle of water. How much was it? $1.50? That’s the average for a 20 oz. bottle. That means you’re paying nearly <em>ten dollars</em> for only one gallon of water! Sorry, no refunds. Why is it so expensive? It is literally just water and plastic.</p>
+<p>The real reason that it is expensive is because Big Water knows that people will buy it for whatever prices they decide are fit. In reality, the consumer is only paying for two things during this exchange: the plastic, and the convenience. Imagine if you could just pay for the water itself...imagine...</p>
+<p>Well you can, and it’s really easy, and markedly cheaper as well (as you could probably imagine). And the answer has been in front of you the entire time. I’m sure all of you, at least people in the U.S., have seen one of these before:</p>
+<figure>
+<img src="/images/primo1.png" height="500" alt="" /><figcaption>You can find them at Walmart, Home Depot, Lowes, etc.</figcaption>
+</figure>
+<p>If you can’t see the image (hi RSS feed readers) then you can see that this is a water-filling station that is advertising water for only <em>39 cents per gallon</em> - a far cry from the scam of 20 oz. bottles of water. Depending on where you live, the number could change, but I don’t think I’ve ever seen it above 50 cents per gallong, which is still substantially less than anything in a bottle.</p>
+<p>The only problem with getting your water through this method is initial investment. You really need three things:</p>
+<ol>
+<li><p>A water machine</p></li>
+<li><p>5-gallon water jug(s)</p></li>
+<li><p>A nice water bottle</p></li>
+</ol>
+<p>When it comes to the machine to actually dispense the water, you could technically get one of those middle school cafeteria ones where you have to turn the jug upside down on top of the machine, but nobody wants to do that. Trust me, top-loaders become a pain, you’re going to want a bottom-loader, even though it is a bit more money. Here’s the one I have:</p>
+<figure>
+<img src="/images/601144.png" height="500" alt="" /><figcaption>This is an older model, the 601144, which I don’t think you can buy for MSRP anymore</figcaption>
+</figure>
+<p>When buying one, I would just recommend whatever allows you to load from the bottom and isn’t too expensive. I’d say try to keep it below $200. That may sound like a lot, but I have been using mine for about 8 years now. I don’t drink tap water because I find it disgusting, and I can guarantee that I have saved myself far more money than what was spent on the machine. The machine doesn’t need to be fancy at all, you really just need to buy something that will cool and dispense your water. The hot water feature on mine is nice, but not necessary.</p>
+<p>After you have the machine, you need the jugs. I would recommend having four of the 5-gallon jugs, as that’s how many can easily fit inside of a shopping cart. You will need to buy these at the store, which is a bit of an investment (or you can probably find some used ones on E-bay for way cheaper, who knows). Once you have the jugs, you bring them back home and put them in your machine, which is a very straightforward process of literally putting a tube in the jug and pressing a button. After you run out of water, you bring your jugs back to any store that has a refill station and you refill them. Then when you check out, make sure to specify it’s a refill so you’re not charged for the container. I usually do Walmart’s self checkout, which you just type "water" into the search and then hit the "5 Gallon Refill" option. Then, be amazed at how little all of the water is going to cost you.</p>
+<p>Finally, you need a bottle. Find something that will keep your water cold for a long time. I don’t really have any brand recommendations for this one for right now (the best bottle I’ve ever used is some random wholesale brand that you have to buy in bulk) but I like the 20 oz. Klean Kanteen Classic Sport Bottle, it’s pretty good for when I go hiking or camping.</p>
+<p>Sorry that this has nothing to do with what I usually post about, however I felt that it needed to be said.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Apple Product Users Are Blocked From My Website (Thanks Nginx)</title>
+<guid>https://swindlesmccoop.xyz/blog/blockapple.html</guid>
+<pubDate>Tue, 06 Jun 2023</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Apple users utterly BTFO" />
+  <meta name="dcterms.date" content="2023-06-06" />
+  <title>Apple Product Users Are Blocked From My Website (Thanks Nginx)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author">Apple users utterly BTFO</p>
+</header>
+<p>It’s no secret that I hate Apple products. At least, ever since they started making the iPod 6. Everything before that was fine if that was your thing, proprietary hardware, proprietary OS, but it just works. Nowadays, not only does it not work hald of the time, but the people that own Apple products are pretentious idiots. I decided to make the executive decision to simple prevent them from accessing my website. If you are using a iMac, iPhone, iPod, iPad, or MacBook, you’ll see an <a href="/errors/apple.html">error page</a>.</p>
+<p>If you want to do this yourself, it’s very simple, at least for nginx (which you should be using, Apache sucks). All you have to do is add lines 6-8 of the below code to your nginx configuration, then restart nginx. Make sure to have a page at /errors/apple.html or else nothing will be shown. I’ve included some lines around it so you can see in better context where the lines should go in your config.</p>
+<pre><code>1  server {
+2      listen 443 ssl;
+3      index index.html;
+4      server_name swindlesmccoop.xyz;
+5
+6      if ($http_user_agent ~* &quot;Macintosh|iPhone|iPod|iPad|Mac OS X&quot;) {
+7          rewrite ^((?!apple\.html).)*$ /errors/apple.html break;
+8      }
+9  }</code></pre>
+<p>I like this method because not matter what page somebody clicks on that links to your site, it will always display the Apple user message.</p>
+<p>Keep in mind, this only works if the useragent string containes one of those things that I said before, but in all honesty, most people using Apple products don’t care about their privacy anyways, meaning they probably wouldn’t be spoofing it at all.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>λ Lisp λ</title>
+<guid>https://swindlesmccoop.xyz/blog/lisp.html</guid>
+<pubDate>Tue, 30 May 2023</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Seems based, but I don’t know if it’s worth it" />
+  <meta name="dcterms.date" content="2023-05-30" />
+  <title>λ Lisp λ</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author">Seems based, but I don’t know if it’s worth it</p>
+</header>
+<p>I first learned about Lisp from Serial Experiments Lain, where there was one episode where some Common Lisp was briefly shown on the screen. I first watched it maybe four years ago, so I mostly had forgotten about it for a couple years. As I started using /g/ more frequently in the past couple years, I learned about the SICP (Structure and Interpretation of Computer Programs) book, which though I haven’t read it, apparently is intertwined with Lisp. In fact, if I recall correctly, the cover literally has a Lambda on it.</p>
+<figure>
+<img src="/images/sicp.jpg" height="500" alt="" /><figcaption>It indeed does have a Lambda λ</figcaption>
+</figure>
+<p>Now, I know that Lisp and Emacs are pretty intertwined as well, and I have <a href="/blog/emacs.html">already talked about wanting to use it</a>, though I’m not exactly sure what the purpose of Emacs Lisp is when it comes to Emacs - I’d assume either for extensibility and/or configuration.</p>
+<p>My problem with Lisp is that it kind of looks dumb. Here is a fizzbuzz written in Common Lisp. Look at all of these parentheses:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode lisp"><code class="sourceCode commonlisp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>(<span class="kw">defun</span><span class="fu"> fizzbuzz </span>(n)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>    (<span class="kw">loop</span> for i from <span class="dv">1</span> to n <span class="kw">do</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>        (<span class="kw">if</span> (<span class="kw">and</span> (<span class="kw">zerop</span> (<span class="kw">mod</span> i <span class="dv">3</span>)) (<span class="kw">zerop</span> (<span class="kw">mod</span> i <span class="dv">5</span>)))</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>            (<span class="kw">print</span> <span class="st">&quot;FizzBuzz&quot;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>            (<span class="kw">if</span> (<span class="kw">zerop</span> (<span class="kw">mod</span> i <span class="dv">3</span>))</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>                (<span class="kw">print</span> <span class="st">&quot;Fizz&quot;</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>                (<span class="kw">if</span> (<span class="kw">zerop</span> (<span class="kw">mod</span> i <span class="dv">5</span>))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>                    (<span class="kw">print</span> <span class="st">&quot;Buzz&quot;</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>                    (<span class="kw">print</span> i))))))</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>(fizzbuzz <span class="dv">100</span>)</span></code></pre></div>
+<p>Now, this isn’t all that I wanted to say about Lisp. Lisp actually seems pretty cool when it comes to actually using it. A while ago, maybe a year or so, I had an idea to use a full Lisp system; I would use a Lisp window manager (StumpWM), a Lisp text editor (Emacs), a Lisp shell, a Lisp terminal, and more. I made a post in some Lisp general thread on /g/, but unfortunately, I can’t actually find that post in any archive anymore.</p>
+<p>If I’m being quite honest, I don’t think I’ll learn Lisp because I simply don’t see a use for it. If I want to do math, I’ll use R or Python. If I want to write a program, I’ll use C. I simply don’t see what it could be useful for in my usecase. Now, if I’m going to learn a new language, I will definitely consider it. But for now, I think I’m good. However, if any of you reading know of a reason I should learn it besides the fact that it was in Serial Experiments Lain and that the Lambda is a cool symbol, <a href="/contact/">let me know</a>.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>My Website Has Come So Far...</title>
+<guid>https://swindlesmccoop.xyz/blog/evolution.html</guid>
+<pubDate>Tue, 23 May 2023</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Two years is a long time, I guess" />
+  <meta name="dcterms.date" content="2023-05-23" />
+  <title>My Website Has Come So Far...</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>Two years is a long time, I guess</em></p>
+</header>
+<p>For the RSS feed readers: if your reader does not display images, please visit the page directly - this post is heavily reliant on images.</p>
+<p>I started my website about two years ago now. It originally was on the <a href="https://cbps.xyz">CBPS server</a> (PS Vita hacking group I’m a part of) at the address <a href="https://swindlesmccoop.cbps.xyz">swindlesmccoop.cbps.xyz</a> but a couple months later, after I was serious about it, I got my own domain, the one you see right now. Fun fact about that - I almost purchased my domain from Epik literally two days before Epik Fail happened - what a close call. Anyways, I wanted to just take a look at the evolution of this website, which thankfully the Web Archive automatically has taken snapshots of around the times that I have drastically changed it.</p>
+<p>All images are clickable and lead to an archived version of the site, allowing you to look through it in your browser by yourself.</p>
+<h2 id="july-27-2021---the-very-first-design">July 27, 2021 - The Very First Design</h2>
+<p><a href="https://web.archive.org/web/20210727193506/https://swindlesmccoop.cbps.xyz/"><img src="/images/website-1.png" width="1050" alt="image" /></a> I originally designed the site as a place for people who played <em>Monster Hunter: Rise</em> with me to be able to learn more about me and contact me and whatnot.</p>
+<h2 id="august-9-2021---independence">August 9, 2021 - Independence</h2>
+<p><a href="https://web.archive.org/web/20210809205624/http://swindlesmccoop.xyz/"><img src="/images/website-2.png" width="1050" alt="image" /></a> This is when I started to actually learn stuff about HTML. If you notice, I have the same wallpaper (I recently applied the static filter though) and I still have the <em>Powered by Navi</em> banner on my page, though it now links to LainChan. I started my blog at this point but I don’t think I actually ever even posted on it because it was kind of cumbersome when trying to make a post.</p>
+<h2 id="november-28-2021---feedback">November 28, 2021 - Feedback</h2>
+<p><a href="https://web.archive.org/web/20211128052813/https://swindlesmccoop.xyz/"><img src="/images/website-3.png" width="1050" alt="image" /></a> I started getting more traffic to the site and people started telling me more things to change. I got some new fonts, as well as added options to contact.</p>
+<h2 id="february-16-2022---the-box">February 16, 2022 - The Box</h2>
+<p><a href="https://web.archive.org/web/20220216154117/https://swindlesmccoop.xyz/"><img src="/images/website-4.png" width="1050" alt="image" /></a> I wanted to have everything in a box at the center, which you could see that I did. Also, I had first started learning about Uncle Ted, so I had a link to his books. I accidentally made the font too large on that link for a brief moment, and I guess that was the exact moment that the Web Archive had archived it.</p>
+<p>I also set up these nice dropdown boxes at the top that I had set up until literally yesterday as of writing this.</p>
+<h2 id="april-18-2022---rss-feeds">April 18, 2022 - RSS Feeds</h2>
+<p><a href="https://web.archive.org/web/20220418003525/https://swindlesmccoop.xyz/"><img src="/images/website-5.png" width="1050" alt="image" /></a> I guess this was around the time I wrote my own blogging script, because the RSS feeds are there now. I wrote a script to make an RSS feed from a Gitea user’s commits, which I had active for a while, but Gitea ended up implementing their own solution, and I don’t even use Gitea anymore, I use Github. The RSS feed for the blog was managed by my script, which I was pretty proud of. Like I showed in <a href="/blog/blogtex.html">my last post</a>, I write my blog using LaTeX and a different program I wrote called <a href="https://github.com/swindlesmccoop/BlOgTeX">BlOgTeX</a>, but if you want to look at that old script, it’s <a href="https://github.com/swindlesmccoop/not-just-dotfiles/blob/master/.local/bin/blogpost">here</a>.</p>
+<h2 id="november-27-2022---the-modern-design">November 27, 2022 - The Modern Design</h2>
+<p><a href="https://web.archive.org/web/20221127183815/https://swindlesmccoop.xyz/"><img src="/images/website-6.png" width="1050" alt="image" /></a> This is what the website looked like until about a couple weeks ago as of writing this. I had wanted to overhaul the entire thing for a while, but only recently did I have the motivation and the know-how to actually do so. I have the banners on the page now in their own little box.</p>
+<h2 id="frebruary-27-2023---server-migration">Frebruary 27, 2023 - Server Migration</h2>
+<p><a href="https://web.archive.org/web/20230227003835/https://swindlesmccoop.xyz/"><img src="/images/website-7.png" width="1050" alt="image" /></a> The Web Archive happened to capture my website while I was migrating servers. Not relevant, just thought it was kind of funny.</p>
+<h2 id="may-23-2023---today">May 23, 2023 - Today</h2>
+<p><a href="https://web.archive.org/web/20230524145951/https://swindlesmccoop.xyz/"><img src="/images/website-8.png" width="1050" alt="image" /></a> And here we are today. I’m so happy to run my own website, honestly. I think my favorite part is that I can just do whatever I want on it without any limitations (besides storage space). I want to do more in the future, like maybe run a radio station, but that is for future endeavors. My domain expires in a couple months and my server in about half of a year, so we’ll see how things go in the future.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>This Blog is Now Written in LaTeX</title>
+<guid>https://swindlesmccoop.xyz/blog/blogtex.html</guid>
+<pubDate>Thu, 11 May 2023</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="We are so back" />
+  <meta name="dcterms.date" content="2023-05-11" />
+  <title>This Blog is Now Written in LaTeX</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>We are so back</em></p>
+</header>
+<p>I’m gonna be honest, I didn’t think I could ever do it. But I did. I’ll write below all about the stages that development went through, so if you just want to look at the program and the docs, you can find all of that <a href="https://github.com/swindlesmccoop/BlOgTeX">here</a>.</p>
+<p>It supports lots of formatting options. For example, we can format text in the normal types of ways, like <strong>bold</strong>, <em>italics</em>, <strong><em>bold italics</em></strong>, <a href="/">links</a> (though those require the import of the hyperref package) and can support things like code syntax highlighting with the use of packages. Note that the packages do not need to actually be installed on the system because that isn’t how pandoc works. Don’t question it.</p>
+<p>Images are much easier to insert too thankfully:<br />
+<a href="https://swindlesmccoop.xyz"><img src="/images/swindlesmccoop.gif" height="70" alt="image" /></a></p>
+<p>And I would have never thought about making tables before:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Shift</td>
+<td style="text-align: center;">Begins</td>
+<td style="text-align: center;">Ends</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">First</td>
+<td style="text-align: center;">9:00 AM</td>
+<td style="text-align: center;">5:00 PM</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Second</td>
+<td style="text-align: center;">5:00 PM</td>
+<td style="text-align: center;">1:00 AM</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Third</td>
+<td style="text-align: center;">1:00 AM</td>
+<td style="text-align: center;">9:00 AM</td>
+</tr>
+</tbody>
+</table>
+<p>I don’t need to use &lt;br&gt;&lt;br&gt; to start new paragraphs or anything anymore - life is good.</p>
+<p>The idea first came from learning about <a href="https://gohugo.io/">Hugo</a>, which many people have emailed me about, and it can compile Markdown documents into HTML. However, I don’t really like Markdown all that much because the syntax is weird to me, and it doesn’t have nearly as many features os a markup language like HTML. But it got me thinking about compiling Markup languages to HTML for something like a blog.</p>
+<p>It was about a year ago that I <a href="/blog/latex.html">first started using LaTeX seriously</a>, and I quickly discovered that it’s the best markup language that mankind has been blessed with. It has nice syntax that’s easy to learn, it’s extensible, it’s flexible, and has plenty of features. However, the actual LaTeX compiler is pretty bloated. I run a lot of services on my server inside of Docker, just in case someone tries to root me or something that I have an extra layer of security. However, my server only has 15GB of storage, and a full LaTeX installation is around 7GB or so - ridiculous. So what was my solution?</p>
+<p>I tried to use a minimal installation of LaTeX, but that didn’t provide htlatex, so I knew I would need a slightly larger package. I tried using one that did provide it, but as it turns out, it didn’t supply packages needed for anything useful, like hyperref which is used for links. So for a while I was just compiling the files on my local machine and seeing how things worked.</p>
+<p>Eventually I got sick of constantly having to scp files back and forth, which prompted me to look up something like "compile latex to html" on a whim, which is when I found out about pandoc. Way less dependencies, way faster than htlatex - we ball.</p>
+<p>I had received a few emails and a couple messages from readers of my blog that I should start putting the actual contents of my blog posts in my <a href="/rss.xml">RSS feed</a>, which I didn’t do before because it was tedious to do manually, but now I can do because it is all completely automated. I run "make" and everything is done for me basically, I just have to write the .tex files.</p>
+<p>I’m gonna make a video about this soon, but I wanted to let you guys know first because, well, you’re reading the fruits of my labor.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>I Might Start Using Emacs</title>
+<guid>https://swindlesmccoop.xyz/blog/emacs.html</guid>
+<pubDate>Thu, 20 Apr 2023</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I thought it was le bad but maybe it is le good" />
+  <meta name="dcterms.date" content="2023-04-20" />
+  <title>I Might Start Using Emacs</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>I thought it was le bad but maybe it is le good</em></p>
+</header>
+<p>When I first started using Linux, I learned Vim. In fact, I am using Vim to type this post right now. But what about Emacs? I have known about Emacs for a while, and I always thought that it was bloat, so I never felt like installing or even learning how to use it. However, I decided to look into using Emacs a little bit, and I must say, it is quite cool. Sure, it’s not just a text editor but rather an entire environment, but I could theoretically replace other programs in my workflow and just use Emacs for them. I’m not sure yet. I especially like Org mode as a concept, though I haven’t used it so I don’t know if it is good in execution. This is on top of that fact that I know it has an extensive keybind system behind it that makes it very easily configurable.</p>
+<p>However much Emacs may seem appealing at first, I do have some requirements, which is why I have not made the switch. First, the way that Vim operates is so intuitive that I do not think about the commands I type or the keybinds I use, as the editing of text is natural. I don’t want to have to relearn how to edit text, especially when it seems like Emacs simply doesn’t adhere well to the editing philosophy of Vim. So my first requirement it Vim keybinds and maybe Vim commands too if I’m lucky. I know there is Evilmacs or whatever it’s called, but I have no interest. I do not want to have to install any extra forks or packages, I want it to be configurable form a vanilla state in just the plain config file. Someone on Matrix suggested Viper to me, but I couldn’t inquire further because the homeserver I was using, <a href="https://sakura.ci">Sakura.ci</a>, is starting to go under.</p>
+<p>Anyways, sorry for not posting for a while, I’ve been focusing on the YouTube channel a bit more, but it’s nice to write every once in a while.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Site Updates</title>
+<guid>https://swindlesmccoop.xyz/blog/siteupdates.html</guid>
+<pubDate>Thu, 09 Feb 2023</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="There is going to be a lot of change going on around here" />
+  <meta name="dcterms.date" content="2023-02-09" />
+  <title>Site Updates</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>There is going to be a lot of change going on around here</em></p>
+</header>
+<p>I got a new VPS, so I’m able to do more with my site than just host static HTML pages. I want to do more, but I don’t yet know what exactly. I want to host something like <a href="https://github.com/PiJoules/atchannel">@channel</a>, the imageboard from Steins;Gate, however I fear that it will attract unsavory people that will upload gore, pornography, and cheese pizza. Now onto the more concrete plans that I have.</p>
+<p>First, I’m going to change my blog to be easier to manage. I have a <a href="https://github.com/swindlesmccoop/not-just-dotfiles/blob/master/.local/bin/blogpost">script</a> to handle it currently, but it’s poorly-written (I haven’t updated it for over nine months now), and it’s a bit of an artifact of what I’m going to call the legacy site. I’m most likely going to overhaul the entire site’s design and make it, well, good. I will not maintain the legacy site, <em><strong>HOWEVER</strong></em> I will keep it up. It holds a lot of sentimental value to me. I haven’t changed anything about the site since I first made it in the summer of 2021, only expanded on what I already have. But it’s shoddily held together and I want an efficient system that allows me to easily manage everything.</p>
+<p>I don’t yet know if I will go through with these changes yet. Like I said, this site is something that I care about a lot, and to change it all will probably be a bit overwhelming. This site is very me, if you can understand that. But I’m reaching nearly 1,000 subscribers on my YouTube channel, and I want something neat and presentable. I’m a bit torn between having something that accurately represents my computing philosophy ("Get it done by any means possible, as efficiently as possible, as minimal as possible.") and something that looks somewhat professional. The former appeals to the "in" crowd. The /g/ browsers. The ricers. The latter appeals to the people that have well-paying jobs in the tech industry, that don’t live in their mothers’ basements - but they are the same type of people that love JavaScript and Rust.</p>
+<p>I think the best thing to do would be to find a balance in between both of these things. Something that is well put-together, so not hacky like the current solution, but something that feels at-home with me. Or maybe I should just make a website like <a href="https://icum.to">this</a> and call it a day.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>I'm Not Even A Linux User Anymore</title>
+<guid>https://swindlesmccoop.xyz/blog/notlinux.html</guid>
+<pubDate>Fri, 21 Oct 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I’m more of a BSD kind of guy…" />
+  <meta name="dcterms.date" content="2022-10-21" />
+  <title>I’m Not Even A Linux User Anymore</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>I’m more of a BSD kind of guy…</em></p>
+</header>
+<p>Sorry for not posting in a long time, life has gotten the better of me. I’ve been uploading videos to my <a href="/link/youtube.html">YouTube channel</a> as of late, however, so make sure to check those out.</p>
+<p>I stopped using Linux in July. Ever since, I’ve been much happier with my computing. Not only do I not have to deal with Code of Conduct garbage, but I have a much simpler and more modular system that uses much less resources. When I was on OpenBSD, I actually was happy with my choice - that is, until I saw how slow its package manager was. If the OpenBSD development team made pkg faster to use, then I would go right back. But until then, I’m going to stick with FreeBSD. I often have a slow connection, and doing anything related to package management on OpenBSD was painfully slow because the manager itself was slow on top of the speed of my internet connection. However, FreeBSD’s pkg is much faster. I’m not sure why (maybe it’s written in something that isn’t Perl?), but I enjoy using it much more. FreeBSD also much more software available in the ports tree, though the port Makefiles seem to be a bit more complicated, so I’m going to have to semi-relearn porting so I can do <a href="https://github.com/swindlesmccoop/freebsd-ports">FreeBSD</a> ports. I already have a bunch of <a href="https://github.com/swindlesmccoop/openbsd-ports">OpenBSD ports</a>, so I’ll bring those over to FreeBSD first.</p>
+<p>Ever since I’ve made the switch, I’ve thought about the possibilities of non-Linux systems. I want to give both Solaris and Haiku a try as well, though I’m unsure of their quality. SerenityOS seems kind of cool but it’s not even ready to run as a daily driver from what I’ve heard, so I’ll hold off on that for now.</p>
+<p>Short story about OS migration, though: make sure to have all of your data backed up to an external drive formatted as NTFS so literally any device is able to read it. I have two drives in my ThinkPad, the one that came with it (used for the OS) and a Kingston 500GB SSD that goes in the UltraBay. I smartly made the decision to mount the Kingston SSD to /home, that way I get high speed and I can easily move the drive to another ThinkPad (when I get an X220 or something). However, I didn’t think about FS compatibility. I created that disk with a partition that spanned the entire thing with FFSv2, which is exclusive to OpenBSD. However, by the time that I went to edit /etc/fstab to mount the drive on boot, I realized that I can’t even mount it regularly. I ended up erasing it because nothing of value was really lost. My suckless builds are all on GitHub and I had already had a large data loss beforehand, so I didn’t really lose much besides a few memes and my wallpaper collection (R.I.P. to those though).</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Everything Comes Full Circle</title>
+<guid>https://swindlesmccoop.xyz/blog/wmhopping.html</guid>
+<pubDate>Tue, 12 Jul 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I think I’m gonna settle in, now…" />
+  <meta name="dcterms.date" content="2022-07-12" />
+  <title>Everything Comes Full Circle</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>I think I’m gonna settle in, now…</em></p>
+</header>
+<p>When I started using tiling WMs, I decided to use DWM since I had heard so many great things about it. And yet when I wanted to make DWM mine...I couldn’t. But I saw another WM that did suit my needs: i3-gaps. So I hopped to that and ported over my config. It went great for a while! But as time went on, I realized that it just wasn’t doing what I wanted it to do anymore. It was around this same time that I decided to switch over to OpenBSD, and since I like falling for stereotypes, BSPWM was the next logical move. I liked how its configuration was an actual language that I could easily customize and that all of the hotkeys were stored separate from everything else and everything was very small and modular. Well, I realized that BSPWM is pretty much i3 but a bit more minimal. Everything I’ve tried to do on other WMs was replicate DWM without actually using DWM. But I’m a fool - why not just use DWM??? I have skills in C nowadays, and with a bit of learning (as in I spent the entire day tweaking) I was able to get literally the perfect setup. Almost. I still have a bit more to do but now I have to update all of my dotfiles from BSPWM to DWM again. Maybe I’ll make a video about it.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>I Switched to OpenBSD</title>
+<guid>https://swindlesmccoop.xyz/blog/openbsdswitch.html</guid>
+<pubDate>Sun, 10 Jul 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="It did not go as smoothly as I thought it was going to, but I’m glad I did it" />
+  <meta name="dcterms.date" content="2022-07-10" />
+  <title>I Switched to OpenBSD</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>It did not go as smoothly as I thought it was going to, but I’m glad I did it</em></p>
+</header>
+<p>The idea initially came from me finding out about Haiku a long time ago. Maybe it was in March or something? I can’t remember. Anyways, I thought the idea of a pure UNIX system would be really cool! Well, Haiku isn’t exactly a UNIX derivative, it comes from BeOS, which itself was also a really cool competitor to Windows back in its day, just never caught on. So I decided to take a look at Solaris, which as far as I know came directly from the original UNIX codebase. Unfortunately, that is both corporate funded and doesn’t really take any sort of patches or anything from the larger free software community, so that was out the Window. The next thing I looked at were the various BSDs, but I quickly became disinterested and finished whatever homework assignment I was supposed to be doing at the time.</p>
+<p>By trade, I’m a Linux user. But am I really? I wanted to see how much of my knowledge was of Linux and how much was of UNIX-based operating systems. After all, I put on my Resume that I can work with UNIX-based and UNIX-like operating systems, so I should probably get a handle on the wider UNIX varieties, right? Well it was around this time that I found the RootBSD Odysee channel, and I watched his video "Is OpenBSD Based?" and it actually seemed super based to me. This was actually about two days after I accidentally deleted my entire home directory (well, most of it, I saved some stuff, thankfully my git repos were included in what I saved), so I really had nothing to lose. I backed up what little I still had left and just went balls-deep into OpenBSD. At least, I tried to – I installed the entire thing without a single guide, and it took me a few hours to figure out how to actually install the kernel and whatnot. But after that it was smooth sailing. I installed i3-gaps and immediately noticed that i3blocks did not have emoji support. Well, none of the emoji fonts I installed ended up changing anything, but that was a blessing in disguise since I ended up just switching to Polybar anyways and I have a text-only status bar. It’s more informative than interactive, which I actually have taken a liking too. Anyways, I was shocked at how many things simply did not work on OpenBSD. Most of my scripts would rely on a couple of Linux-specific things that would completely break the entire thing, meaning I would have to remake it...but all of my scripts still work on Linux as far as I know, so I’m really just making my scripts even more based and portable, which is a lot of fun. This way I now have knowledge of the things added and removed from Linux. I got kind of sick of i3 while I was still using Linux, and there were some weird OpenBSD-specific quirks, so I just did the based thing to do and switched to DWM. And then BSPWM because I don’t want to configure DWM. One day, but not today. Anyways, I started ricing BSPWM and started using Polybar and SXHKD and a few other tools that I wouldn’t have been able to see myself using before, so I think that’s pretty cool.</p>
+<p>I kind of glossed over OpenBSD Ports, but it’s exactly what it sounds like: software ported from Linux to OpenBSD. And most of the time things work pretty much perfectly, as long as you build them the right way. However, there are a few packages that are not part of the ports collection, such as xdo and vifm. I have an Arch Linux package repository <a href="https://github.com/swindlesmccoop/swindles-arch-packages">here</a>, and all you have to do to access the packages in it is add a few lines to /etc/pacman.conf, which is really easy. Even though it’s a different package manager on OpenBSD, the packaging itself kind of made sense, so I tried to create my own OpenBSD package repo, however when I told my system to point to that instead of the official repo, then it just told me that the package directory was empty...which it’s not. I’m gonna talk to some people that know more about BSD systems to see what I can do about this.</p>
+<p>I don’t know what the moral of the story is or anything, but OpenBSD and Linux aren’t that different at a fundamental level once you understand what both systems are actually doing. At this point, pretty much everything important works completely fine on OpenBSD.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>The Kindle Fire is the worst device I've ever used in my life</title>
+<guid>https://swindlesmccoop.xyz/blog/kindle.html</guid>
+<pubDate>Mon, 06 Jun 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="It’s crazy just how restrictive it is – but it’s Amazon, so why am I surprised?" />
+  <meta name="dcterms.date" content="2022-06-06" />
+  <title>The Kindle Fire is the worst device I’ve ever used in my life</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>It’s crazy just how restrictive it is – but it’s Amazon, so why am I surprised?</em></p>
+</header>
+<p>I bought a Kindle Paperwhite about a year ago...or maybe longer than that, but it was quite a good investment. I could read pretty much anything I wanted to. All I had to do was mount it as a normal drive and then cp any PDF or djvu files that I had over to its storage. Now this was all fine and good. It was a nice screen (not like the normal tablet ones with apps and whatnot, this was strictly for reading because it had no other functions) and I would read it at night or whenever I had some downtime and wanted to just read a book. However, I recently went ahead and picked up a Kindle Fire, the aforementioned tablet with apps, and it was the worst experience ever. I picked it up because it was around $15, a steal for the 7 HD, but I was shocked at how awful ti was from the standpoint of freedom. Of course, the first thing I tried to do was put a PDF on it. I had some .tex files of some books I wanted to read, so I compiled them into PDFs and dropped them onto the device, just like I did with my previous Kindle. Except when I went to open them, there was an issue – the PDFs were...DRM-protected? Now if you know anything about me, you would know that I’m pretty much Anti-DRM, which made this pretty crazy. I compile a PDF from a plain text file and it says there’s DRM on it when there is clearly none? I found this astonishing. And other people online had the same issue. I already knew about Calibre (eBook library management software) and had it installed, and apparently if you transfer a PDF from your computer to the Kindle using Calibre, it sends it in a way that allows you to read it. To be honest, I have no idea what it’s actually doing, but it Just Works<sup>TM</sup>. So that was all fine and good. I saw it pop up on the library on the Kindle, so I was glad. A bit annoyed that I had to use external software instead of the terminal, meaning I couldn’t write a script to do it, but how often was I going to transfer books to it when I planned on giving it away? I have my Paperwhite anyways. So I clicked on it. And you want to know what it said? Go ahead, guess.</p>
+<p>Done guessing? I’m sure you couldn’t figure it out. Something along the lines of this: "You need to sign into your Amazon account in order to read this book." What? Why? It’s a PDF that I made. It’s mine. What the heck? Well I found a bit of an annoying exploit to get around it, but you can eventually read the book. You have to click on the book, then before the popup comes, go back, then click on the book again, wait for the popup, then hit "sign in," then hit back. I guess it fails to put you back on the popup or something because then...it just lets you read the book. I hate this thing.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>New YouTube Series Idea</title>
+<guid>https://swindlesmccoop.xyz/blog/shellscriptwithme.html</guid>
+<pubDate>Thu, 02 Jun 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="An informative series of shell scripting tutorials, from beginner to advanced" />
+  <meta name="dcterms.date" content="2022-06-02" />
+  <title>New YouTube Series Idea</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>An informative series of shell scripting tutorials, from beginner to advanced</em></p>
+</header>
+<p>I <em>love</em> shell scripting, so much so that I want to share my love for it with the world. Though I haven’t really been gaining subscribers on my channel, my videos are getting what I call a decent amount of views. My i3 video got 40 views, which in my opinion is pretty good. Though looking at the analytics is a bit discouraging (most people only watched about 10% of the video, which was around 3 minutes), it proves that I can make at least somewhat attractive videos. Videos that make seemingly complex things very simple have always been something I thought were cool, so if I made a video series about the basics of shell scripting, helpful coreutils, stream manipulations, network interaction, CLI programs, status bar scripts, and general tools to make life easier, I think it could actually be very successful and give me at least a bit more of an audience than what I currently have.</p>
+<p>I think I would make the videos in parts like this:</p>
+<ul>
+<li><p>Part 1: Standard Input and Output</p></li>
+<li><p>Part 2: Helpful Standard Core Utilities</p></li>
+<li><p>Part 3: Manipulating Text and Variables</p></li>
+<li><p>Part 4: Networking With cURL</p></li>
+<li><p>Part 5: Writing a CLI program</p></li>
+<li><p>Part 6: Writing Status Bar Scripts</p></li>
+</ul>
+<p>This could be really fun and informative for a lot of people.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>I Might Be Leaving Artix Soon</title>
+<guid>https://swindlesmccoop.xyz/blog/artixtonix.html</guid>
+<pubDate>Wed, 01 Jun 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I think NixOS is looking really promising" />
+  <meta name="dcterms.date" content="2022-06-01" />
+  <title>I Might Be Leaving Artix Soon</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>I think NixOS is looking really promising</em></p>
+</header>
+<p>Ever since I first found out what a package manager does, I always thought that it would be cool if I could create my own package manager that worked simply from install scripts. When I used Ubuntu and all of the other normal "beginner" distros with their snaps and flatpaks and appimages and whatnot, I always thought that a generic shell script could easily do all of the stuff that these package managers were doing, and more. When I made the real switch to Artix, I found out about the AUR, and I must say that I was impressed. Not only was I impressed, I didn’t really understand what it was doing. After a while, I realized that PKGBUILDs were just shell scripts that were interpreted with makepkg, and that’s really cool! If you know anything about me, you know that I love shell scripts for everything. Heck, I’m using the blogging script I mentioned a couple posts ago to type this out! Anyways, I ended up watching a tutorial on how to make a PKGBUILD and I made a script for <a href="https://github.com/swindlesmccoop/spdl">spdl</a>, the StepMania Pack Downloader. And so that was that for a while. But in the back of my mind (as well as through many posts on 4chan), I kept reminding myself about NixOS. I have a good (online) friend who told me about Nix a while ago and how it has the most packages out of any package repo, and I laughed at him, telling him that the AUR was all that I needed. However, unlike the AUR, all of the packages on NixOS are official. And how do you install them? Not grab a binary release from some central server, no. You see, Nix itself is a language, and you create almost a .nix program that holds the instructions for building the package. So in a sense, it’s like a PKGBUILD, but it’s the only way to install packages. And there aren’t a million repositories out there for all of the Nix packages, there’s one: a GitHub repository called <a href="https://github.com/NixOS/nixpkgs">nixpkgs</a>. And it’s very convenient. Every program that you could possibly install on NixOS has a default.nix file for you to build it from. And through NixOS’s package manager (which, by the way, is also called Nix and is distribution-agnostic and won’t mess with your dependencies) you are basically just running the .nix file and doing whatever it tells the computer to do. Once you figure out what the derivations (PKGBUILDs basically) are doing, you can start to figure out more and more about the Nix system. I’ve installed Nix (the package manager) on the school Linux computer to test it out. All you have to do is install it using the script on their site and append</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>    <span class="bu">source</span> <span class="st">&quot;</span><span class="va">$HOME</span><span class="st">/.nix-profile/etc/profile.d/nix.sh&quot;</span> </span></code></pre></div>
+<p>to your shell’s rc and it will set up all of the proper environmental variables for you. If you want to use nonfree programs, also append</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>    <span class="bu">export</span> <span class="va">NIXPKGS_ALLOW_UNFREE=</span>1</span></code></pre></div>
+<p>to your shell’s rc.</p>
+<p>I look forward to using the Nix package manager, though I will inevitably make the entire switch. I’ve started making some of my own nixpkgs <a href="https://github.com/swindlesmccoop/nixpkgs/">here</a> so I can keep my packages.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Could Things Just Be More...Simple?</title>
+<guid>https://swindlesmccoop.xyz/blog/simplicity.html</guid>
+<pubDate>Tue, 24 May 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Why do people want to make computing so complicated?" />
+  <meta name="dcterms.date" content="2022-05-24" />
+  <title>Could Things Just Be More...Simple?</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>Why do people want to make computing so complicated?</em></p>
+</header>
+<p>Why does it seem like everything wants to make things so complicated? I want to be able to have granular control over my entire system, yet many programs, even open source software, try to obscure and abstract everything away from the user. Things like SystemD are just...so complicated to understand. I want an init system that starts my computer, I don’t want an entire tool suite that helps me manage my computer. I have my simple POSIX sh scripts to do that! This is why I use stuff like Runit. Services are simple shell scripts stored in on directory, and to enable them you just have to make a single symbolic link. It’s so easy.</p>
+<p>When it comes to packages, package managers are great. Even ones that I don’t really have a fondness for like apt are good. But when we get into the territory of snaps, flatpaks, AppImages, etc., then things get so confusing. Do everything through your native package manager! I hate things like pip, cargo, and tlmgr. All packages should be installed through your distributions package manager or compiled from source. Why do we want universal things to exist? Linux is made so that the user can have control over their own system. If they don’t like it, they can change it. But we’re getting to the point where programs just won’t support anything besides SystemD and PulseAudio. Now I actually do use PulseAudio because...well, I know literally nothing about Linux audio systems. But trying to fix PulseAudio is an unnecessary nightmare. Not because I do dumb things that will obviously break (though on occasion I have been known to do that), but because I have no idea what it’s actually doing. PulseAudio and SystemD seem as though they could really just split away from Linux and become a new operating system.</p>
+<p>I’m not really sure what I was supposed to be writing about, but I hate that people want universal, obscure, complicated programs for Linux. Maybe I should go to OpenBaSeD or another "distribution(?)" of it.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>What If I Managed My Entire File System With Git?</title>
+<guid>https://swindlesmccoop.xyz/blog/gitfs.html</guid>
+<pubDate>Tue, 24 May 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I think it could be revolutionary if done right" />
+  <meta name="dcterms.date" content="2022-05-24" />
+  <title>What If I Managed My Entire File System With Git?</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>I think it could be revolutionary if done right</em></p>
+</header>
+<p>Maybe another version control system that’s a bit faster or something. But what if instead of making a dedicated backup drive, we used a version control system that tracked every single file on the computer. Or maybe even just the home folder. We could use some form of compression to make it fit on the main drive in a separate partition. Or maybe we <em>should</em> have dedicated backup drives...but only instead of storing a bunch of backup archives, we instead send all of the version control files there instead? That would actually be pretty cool. Then, we would literally never have to roll back changes that we didn’t want to in case we broke something, we can just roll back a couple of files. That way, everything is way more convenient. Maybe this should be my excuse to learn C...or something else but C seems mega based.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>New Blogging Script</title>
+<guid>https://swindlesmccoop.xyz/blog/blogscript.html</guid>
+<pubDate>Thu, 19 May 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="It’s only 15 lines of POSIX sh script" />
+  <meta name="dcterms.date" content="2022-05-19" />
+  <title>New Blogging Script</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>It’s only <strong>15</strong> lines of POSIX sh script</em></p>
+</header>
+<p>I haven’t pushed the updated script to the git page yet, but I’ve fully automated my blog posting now. All I have to do is run blogpost in my terminal and it does pretty much everything for me. It puts all of the contents of this page by reading a couple of variables (if you want to see what it does, look at the source of this page and the script). It’s very simple, and it has pretty much three features:</p>
+<ol>
+<li><p>Create HTML of actual post</p></li>
+<li><p>Update <a href="/blog/">blog index</a></p></li>
+<li><p>Append relevant info to RSS feed</p></li>
+</ol>
+<p>It’s quite simple really. It’s very quick and requires very little maintenance. All I have to do is SSH into my server, enter the blog directory, run the command, and type out a blog post. Too simple!</p>
+<p>You can find the script <a href="https://github.com/swindlesmccoop/not-just-dotfiles/blob/master/.local/bin/blogpost">here</a>.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Future of the YouTube Channel</title>
+<guid>https://swindlesmccoop.xyz/blog/youtube.html</guid>
+<pubDate>Sun, 15 May 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="I’ve got some cool videos coming soon" />
+  <meta name="dcterms.date" content="2022-05-15" />
+  <title>Future of the YouTube Channel</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author"><em>I’ve got some cool videos coming soon</em></p>
+</header>
+<p>I think I’m really liking the whole <a href="/link/youtube.html">YouTube channel</a> concept. It’s like having my own website...but with videos. Unfortunately YouTube likes to censor people when they get too based, but fortunately I’m not popular enough to pay attention to yet. I have some cool videos planned for i3wm/i3blocks, BRSTM files, and my <a href="https://github.com/swindlesmccoop/Books-in-LaTeX">books in LaTeX</a>. Obviously everybody wants to grow their viewerbase, but I don’t think I want to be popular. I particularly don’t want YouTube to become a full-time job for me, I just think it would be a cool thing to do on the side.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Installing Artix Manually Was...Really Easy, Actually</title>
+<guid>https://swindlesmccoop.xyz/blog/artixmanually.html</guid>
+<pubDate>Mon, 18 Apr 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2022-04-18" />
+  <title>Installing Artix Manually Was...Really Easy, Actually</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+</header>
+<p>I think there is a lot of weird elitism or fear mongering when it comes to installing an operating system like Arch or Gentoo from a plain base(d) ISO. However, it’s extremely easy if you simply just know what you’re doing. Honestly, all you need to know how to do is use a text editor, know what partitions you’re installing things to, and know if you have a UEFI or BIOS system. If you know those three things, you can very easily get a full graphical installation of your favorite minimalist distro in less than an hour.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>This does not apply to Gentoo compile times<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>This Post Was Typed on a ThinkPad T420s</title>
+<guid>https://swindlesmccoop.xyz/blog/firstthinkpad.html</guid>
+<pubDate>Sat, 16 Apr 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Swindles McCoop" />
+  <meta name="dcterms.date" content="2022-04-16" />
+  <title>This Post Was Typed on a ThinkPad T420s</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author">Swindles McCoop</p>
+</header>
+<p>I finally got a ThinkPad! It was my birthday recently, and I got a refurbished T20s as a gift for that birthday. I <a href="/blog/artixmanually.html">immediately installed Artix onto it</a> and I’ve been having a great time ever since. I think this is a good opportunity for me to learn how to use a tiling WM and stuff, but let’s save that for later. After all, most of the work that I do is from the terminal anyways.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Why I Only Use LaTeX For Documents Now</title>
+<guid>https://swindlesmccoop.xyz/blog/latex.html</guid>
+<pubDate>Wed, 23 Mar 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Swindles McCoop" />
+  <meta name="dcterms.date" content="2022-03-23" />
+  <title>Why I Only Use LaTeX For Documents Now</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author">Swindles McCoop</p>
+</header>
+<p>LaTeX is one of the best document formatting systems I have come across in a while because...well, it just makes sense. The syntax is usually pretty consistent, and if I want to do something in it, it’s almost a guarantee that someone else has already done that thing and I can find the solution online somewhere. Yesterday, I forced myself to learn the basic syntax of LaTeX by reformatting <a href="https://swindlesmccoop.xyz/books/Art of War.pdf">Art of War by Sun Tzu</a> into a <a href="https://github.com/swindlesmccoop/Books-in-LaTeX">LaTeX document</a> (and I got a bit of Vim macro fun in too), and let me just say, wow. It looks beautiful, consistent, and I didn’t have to do anything super fancy with it. The biggest problem I came across was when referring to part of a chapter, there are basically section numbers, and one section included two numbers. I don’t know how I would have been able to do it in Word or a similar piece of software, but with LaTeX, it took about a minute of knowing what to search for online to find the solution.</p>
+<p>I’m actually quite glad I learned LaTeX, because it kind of solves all of the problems that I have with things like Google Docs and Word. I’ll probably end up rewriting my resume using it just because it’s so simple to actually use. I’ve already done some school assignments using it as well, and I can tell that I’m going much faster.</p>
+</body>
+</html>
+]]></description>
+</item>
+
+<item>
+<title>Warranted Hate for Codes of Conduct</title>
+<guid>https://swindlesmccoop.xyz/blog/conduct.html</guid>
+<pubDate>Fri, 18 Mar 2022</pubDate>
+<description><![CDATA[
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Swindles McCoop" />
+  <meta name="dcterms.date" content="2022-03-18" />
+  <title>Warranted Hate for Codes of Conduct</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+<body>
+<header id="title-block-header">
+<p class="author">Swindles McCoop</p>
+</header>
+<p>I don’t use software that has a code of conduct. At least, I try not to. Having one isn’t really necessary. What a code of conduct does is bring politics into a place where it doesn’t need to be - git repositories. There is honestly no need for anything so cringe to be put into a git repository. I think the main "violator" of this is the stupid "Contributor Covenant" thing. I don’t even know how it started or where it came from, but I do know that it’s really useless.</p>
+<p><strong>"We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."</strong> If I’m a developer, does that really have anything to do with me? What if my entire community is just straight white males? I can’t <em>force</em> my "community" to be diverse (even though the term "online community" barely makes any sense anyways). What am I supposed to do? Go out and say "Hello all people that are not straight white males! We want more diverse people using our software!" Ridiculous.</p>
+<p><strong>"Demonstrating empathy and kindness toward other people"</strong> What? Why should I demonstrate empathy for people? If I make a simple program where I tell them to execute a shell script and they say "What do I do if it says ’permission denied’" I’m most likely going to make fun of them and tell them that Google is their friend. Because I’m not going to hold their hand, and by telling them the answer to the question, it will continue to perpetuate the cycle of laziness in which people become reliant on others for practically no reason, even when they can figure it out for themselves, they just don’t want to.</p>
+<p><strong>"Giving and gracefully accepting constructive feedback"</strong> No. If somebody tells me that I should add a GUI to a shell script program that is the simplest thing on earth to understand, even for my grandmother that doesn’t use Linux, I will promptly tell them that they are wrong and that I will not even attempt to create a GUI because you only need to supply two arguments to the program, and there is a help message that appears when you execute it telling you exactly what to do.</p>
+<p><strong>"Examples of unacceptable behavior include: The use of sexualized language or imagery, and sexual attention or advances of any kind"</strong> So what should I do if I’m making a downloader script for an adult website? Beat around the bush? I run my own git site so that I <em>don’t</em> have to do that, thank you very much.</p>
+<p><strong>"Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community."</strong> If I said that capitalism is good and that individuals boosting the economy and competing with each other is how our country was founded, but other people disagree (because of leftist/socialist politics), does that just mean I get dismissed? Doesn’t sound very inclusive or diverse if you ask me.</p>
+<p>I think that’s all I really want to write about that dumpster fire for now. I took a look at the FAQ page as well, and I found something extremely cringe: <em>Are codes of conduct a mechanism for turning project governance over to “social justice warriors”?</em></p>
+<p><strong>"Project maintainers are responsible for tailoring and enforcing the codes of conduct that they adopt. A code of conduct does not grant any authority or power to anyone outside of this group. Even if pressure is applied from a third party, such as on social media, the project maintainers alone have the authority to enforce the code of conduct and are under no obligation to bow to external pressure."</strong> I’m pretty sure Linus Torvalds was essentially kicked out of Linux development and management for a while because he didn’t want to add this stupid Code of Conduct.</p>
+<p>That’s all I can suffer through today. I encourage you to read it for yourself and formulate your own opinion. <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/">Code of Conduct</a>, <a href="https://www.contributor-covenant.org/faq/">FAQ</a></p>
+</body>
+</html>
+]]></description>
+</item>
+</channel>
+</rss>
